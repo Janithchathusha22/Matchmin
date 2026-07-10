@@ -1,8 +1,13 @@
+// In production set VITE_API_URL to the deployed backend origin
+// (e.g. https://matchmind-api.onrender.com). Empty locally so Vite's
+// dev proxy handles /api → http://localhost:8000.
+const API_BASE = import.meta.env.VITE_API_URL || ''
+
 const cache = new Map()
 
 async function get(path) {
   if (cache.has(path)) return cache.get(path)
-  const res = await fetch(path)
+  const res = await fetch(API_BASE + path)
   if (!res.ok) throw new Error(`${path} → ${res.status}`)
   const data = await res.json()
   cache.set(path, data)
@@ -20,7 +25,7 @@ export const api = {
   metrics: () => get('/api/model/metrics'),
   accuracy: () => get('/api/accuracy'),
   predict: async (home, away, knockout) => {
-    const res = await fetch('/api/predict', {
+    const res = await fetch(API_BASE + '/api/predict', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ home, away, knockout }),
