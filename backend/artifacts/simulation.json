@@ -1,0 +1,451 @@
+{
+  "model": "weighted_ensemble",
+  "runs": 200000,
+  "as_of": "2026-07-10",
+  "data_fingerprint": "e6e0df0153e3991d",
+  "generated_at_utc": "2026-07-10T10:44:31.850463+00:00",
+  "title_odds": [
+    {
+      "team": "France",
+      "reach_qf": 1.0,
+      "reach_sf": 1.0,
+      "reach_final": 0.639,
+      "champion": 0.4267
+    },
+    {
+      "team": "Spain",
+      "reach_qf": 1.0,
+      "reach_sf": 0.6622,
+      "reach_final": 0.26,
+      "champion": 0.1643
+    },
+    {
+      "team": "Argentina",
+      "reach_qf": 1.0,
+      "reach_sf": 0.7733,
+      "reach_final": 0.3906,
+      "champion": 0.1636
+    },
+    {
+      "team": "England",
+      "reach_qf": 1.0,
+      "reach_sf": 0.5392,
+      "reach_final": 0.3222,
+      "champion": 0.1198
+    },
+    {
+      "team": "Belgium",
+      "reach_qf": 1.0,
+      "reach_sf": 0.3378,
+      "reach_final": 0.101,
+      "champion": 0.0535
+    },
+    {
+      "team": "Norway",
+      "reach_qf": 1.0,
+      "reach_sf": 0.4608,
+      "reach_final": 0.2059,
+      "champion": 0.0492
+    },
+    {
+      "team": "Switzerland",
+      "reach_qf": 1.0,
+      "reach_sf": 0.2267,
+      "reach_final": 0.0813,
+      "champion": 0.0228
+    }
+  ],
+  "upcoming": [
+    {
+      "match_id": 98,
+      "date": "2026-07-10",
+      "stage": "Quarter-finals",
+      "home": "Spain",
+      "away": "Belgium",
+      "probs": {
+        "H": 0.512,
+        "D": 0.268,
+        "A": 0.219
+      },
+      "advance_prob_home": 0.6617,
+      "extra_time": {
+        "home": 0.2642,
+        "draw": 0.4872,
+        "away": 0.2486
+      },
+      "penalty_home": 0.6,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1204
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0894
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0852
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0851
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0811
+        }
+      ],
+      "pick": "Spain"
+    },
+    {
+      "match_id": 99,
+      "date": "2026-07-11",
+      "stage": "Quarter-finals",
+      "home": "Norway",
+      "away": "England",
+      "probs": {
+        "H": 0.336,
+        "D": 0.276,
+        "A": 0.388
+      },
+      "advance_prob_home": 0.4594,
+      "extra_time": {
+        "home": 0.2509,
+        "draw": 0.4872,
+        "away": 0.2619
+      },
+      "penalty_home": 0.4,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1204
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0888
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0857
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0846
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0817
+        }
+      ],
+      "pick": "England"
+    },
+    {
+      "match_id": 100,
+      "date": "2026-07-12",
+      "stage": "Quarter-finals",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "probs": {
+        "H": 0.636,
+        "D": 0.253,
+        "A": 0.111
+      },
+      "advance_prob_home": 0.7749,
+      "extra_time": {
+        "home": 0.2555,
+        "draw": 0.4873,
+        "away": 0.2572
+      },
+      "penalty_home": 0.6,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1205
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0875
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.087
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0834
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.083
+        }
+      ],
+      "pick": "Argentina"
+    }
+  ],
+  "bracket": [
+    {
+      "match_id": 89,
+      "date": "2026-07-04",
+      "stage": "Round of 16",
+      "home": "Paraguay",
+      "away": "France",
+      "home_score": 0,
+      "away_score": 1,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "France",
+      "sources": null
+    },
+    {
+      "match_id": 90,
+      "date": "2026-07-04",
+      "stage": "Round of 16",
+      "home": "Canada",
+      "away": "Morocco",
+      "home_score": 0,
+      "away_score": 3,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "Morocco",
+      "sources": null
+    },
+    {
+      "match_id": 91,
+      "date": "2026-07-05",
+      "stage": "Round of 16",
+      "home": "Brazil",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "Norway",
+      "sources": null
+    },
+    {
+      "match_id": 92,
+      "date": "2026-07-06",
+      "stage": "Round of 16",
+      "home": "Mexico",
+      "away": "England",
+      "home_score": 2,
+      "away_score": 3,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "England",
+      "sources": null
+    },
+    {
+      "match_id": 93,
+      "date": "2026-07-06",
+      "stage": "Round of 16",
+      "home": "Portugal",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 1,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "Spain",
+      "sources": null
+    },
+    {
+      "match_id": 94,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "USA",
+      "away": "Belgium",
+      "home_score": 1,
+      "away_score": 4,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "Belgium",
+      "sources": null
+    },
+    {
+      "match_id": 95,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "Argentina",
+      "away": "Egypt",
+      "home_score": 3,
+      "away_score": 2,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "Argentina",
+      "sources": null
+    },
+    {
+      "match_id": 96,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "home_score": 0,
+      "away_score": 0,
+      "home_pens": 4,
+      "away_pens": 3,
+      "status": "Completed",
+      "winner": "Switzerland",
+      "sources": null
+    },
+    {
+      "match_id": 97,
+      "date": "2026-07-09",
+      "stage": "Quarter-finals",
+      "home": "France",
+      "away": "Morocco",
+      "home_score": 2,
+      "away_score": 0,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Completed",
+      "winner": "France",
+      "sources": [
+        "W89",
+        "W90"
+      ]
+    },
+    {
+      "match_id": 98,
+      "date": "2026-07-10",
+      "stage": "Quarter-finals",
+      "home": "Spain",
+      "away": "Belgium",
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W93",
+        "W94"
+      ]
+    },
+    {
+      "match_id": 99,
+      "date": "2026-07-11",
+      "stage": "Quarter-finals",
+      "home": "Norway",
+      "away": "England",
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W91",
+        "W92"
+      ]
+    },
+    {
+      "match_id": 100,
+      "date": "2026-07-12",
+      "stage": "Quarter-finals",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W95",
+        "W96"
+      ]
+    },
+    {
+      "match_id": 101,
+      "date": "2026-07-14",
+      "stage": "Semi-finals",
+      "home": "France",
+      "away": null,
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W97",
+        "W98"
+      ]
+    },
+    {
+      "match_id": 102,
+      "date": "2026-07-15",
+      "stage": "Semi-finals",
+      "home": null,
+      "away": null,
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W99",
+        "W100"
+      ]
+    },
+    {
+      "match_id": 103,
+      "date": "2026-07-18",
+      "stage": "Third-place match",
+      "home": null,
+      "away": null,
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "L101",
+        "L102"
+      ]
+    },
+    {
+      "match_id": 104,
+      "date": "2026-07-19",
+      "stage": "Final",
+      "home": null,
+      "away": null,
+      "home_score": null,
+      "away_score": null,
+      "home_pens": null,
+      "away_pens": null,
+      "status": "Scheduled",
+      "winner": null,
+      "sources": [
+        "W101",
+        "W102"
+      ]
+    }
+  ]
+}

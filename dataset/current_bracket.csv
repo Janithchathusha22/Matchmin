@@ -1,0 +1,8 @@
+match_id,date,kickoff_time_utc,stage,home_code,away_code,status,home_score,away_score,home_penalties,away_penalties,winner_code,home_source,away_source,verified_as_of
+97,2026-07-09,20:00,Quarter-finals,FRA,MAR,Completed,2,0,,,FRA,W89,W90,2026-07-10
+98,2026-07-10,19:00,Quarter-finals,ESP,BEL,Scheduled,,,,,,W93,W94,2026-07-10
+99,2026-07-11,21:00,Quarter-finals,NOR,ENG,Scheduled,,,,,,W91,W92,2026-07-10
+100,2026-07-12,01:00,Quarter-finals,ARG,SUI,Scheduled,,,,,,W95,W96,2026-07-10
+101,2026-07-14,20:00,Semi-finals,FRA,,Scheduled,,,,,,W97,W98,2026-07-10
+102,2026-07-15,20:00,Semi-finals,,,Scheduled,,,,,,W99,W100,2026-07-10
+104,2026-07-19,20:00,Final,,,Scheduled,,,,,,W101,W102,2026-07-10

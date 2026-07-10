@@ -1,0 +1,21 @@
+{
+  "dataset_version": "2026.07.10-seven-team-v1",
+  "as_of_utc": "2026-07-10T00:00:00Z",
+  "policy": {
+    "observed": "Verified tournament facts only; unknown fields remain null.",
+    "derived": "Calculated only from observations available before each fixture.",
+    "prediction": "Model output, never stored as an observed fact."
+  },
+  "files": {
+    "matches.csv": {"type": "observed", "description": "Normalized tournament match state"},
+    "remaining_teams.csv": {"type": "observed", "description": "Seven teams still alive after match 97"},
+    "current_bracket.csv": {"type": "observed", "description": "Quarter-final onward bracket snapshot"},
+    "remaining_team_snapshot.csv": {"type": "derived", "description": "Pre-match rolling contender features"},
+    "locked_predictions.json": {"type": "prediction", "description": "Versioned model forecast artifact"}
+  },
+  "verified_results": [
+    {"match_id": 95, "result": "Argentina 3-2 Egypt", "source": "https://fdp.fifa.org/assetspublic/ce281/r12537/pdf/FullTimeMatchReport-English.pdf"},
+    {"match_id": 96, "result": "Switzerland 0-0 Colombia; Switzerland won 4-3 on penalties", "source": "https://www.the-afc.com/en/national/fifa_world_cup.html/news/r16-switzerland-0-4-3-0-colombia"},
+    {"match_id": 97, "result": "France 2-0 Morocco", "source": "https://www.lemonde.fr/en/sports/article/2026/07/10/france-s-powerful-attack-secures-win-against-morocco-and-world-cup-semi-final-spot_6755328_9.html"}
+  ]
+}

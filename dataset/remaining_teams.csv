@@ -1,0 +1,8 @@
+team_id,team_name,fifa_code,confederation,fifa_rank_pre_tournament,elo_rating,manager_name,image_path,tournament_status,verified_as_of
+33,France,FRA,UEFA,3,2100,Didier Deschamps,/teams/FRA.jpeg,Semi-finalist,2026-07-10
+29,Spain,ESP,UEFA,2,2120,Luis de la Fuente,/teams/ESP.jpeg,Quarter-finalist,2026-07-10
+25,Belgium,BEL,UEFA,9,1950,Domenico Tedesco,/teams/BEL.jpeg,Quarter-finalist,2026-07-10
+36,Norway,NOR,UEFA,44,1775,Ståle Solbakken,/teams/NOR.jpeg,Quarter-finalist,2026-07-10
+45,England,ENG,UEFA,4,2050,Thomas Tuchel,/teams/ENG.jpeg,Quarter-finalist,2026-07-10
+37,Argentina,ARG,CONMEBOL,1,2150,Lionel Scaloni,/teams/ARG.jpeg,Quarter-finalist,2026-07-10
+8,Switzerland,SUI,UEFA,19,1860,Murat Yakin,/teams/SUI.jpeg,Quarter-finalist,2026-07-10

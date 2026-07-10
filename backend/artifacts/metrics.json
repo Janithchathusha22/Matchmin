@@ -1,0 +1,101 @@
+{
+  "best_model": "weighted_ensemble",
+  "production_selection": "Convex ensemble weights fitted on historical validation log-loss; WC2026 excluded from selection",
+  "ensemble_weights": {
+    "baseline_elo_logreg": 1.0,
+    "random_forest": 0.0,
+    "xgboost": 0.0,
+    "neural_network": 0.0
+  },
+  "n_train_historical": 600,
+  "n_model_selection_train": 480,
+  "n_model_selection_validation": 120,
+  "n_live_wc2026": 97,
+  "feature_baseline": {
+    "elo_home": 1851.009513,
+    "elo_away": 1853.290937,
+    "elo_diff": -2.281424,
+    "winrate5_home": 0.365028,
+    "winrate5_away": 0.365528,
+    "goals_for5_home": 1.349611,
+    "goals_for5_away": 1.373917,
+    "goals_against5_home": 1.369944,
+    "goals_against5_away": 1.364806,
+    "is_knockout": 0.0
+  },
+  "data_fingerprint": "e6e0df0153e3991d",
+  "generated_at_utc": "2026-07-10T10:44:08.155312+00:00",
+  "historical_data_limitations": "The legacy 600-match file has no dates or source lineage; file order is used until a verified dated archive replaces it.",
+  "models": {
+    "baseline_elo_logreg": {
+      "validation": {
+        "accuracy": 0.5,
+        "log_loss": 1.0389,
+        "brier": 0.6251,
+        "f1_macro": 0.3927
+      },
+      "wc2026_live": {
+        "accuracy": 0.6495,
+        "log_loss": 0.9085,
+        "brier": 0.5355,
+        "f1_macro": 0.4926
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "accuracy": 0.4667,
+        "log_loss": 1.0631,
+        "brier": 0.6404,
+        "f1_macro": 0.369
+      },
+      "wc2026_live": {
+        "accuracy": 0.6186,
+        "log_loss": 0.9388,
+        "brier": 0.5529,
+        "f1_macro": 0.4706
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "accuracy": 0.4333,
+        "log_loss": 1.0876,
+        "brier": 0.6575,
+        "f1_macro": 0.3443
+      },
+      "wc2026_live": {
+        "accuracy": 0.6082,
+        "log_loss": 0.9999,
+        "brier": 0.5964,
+        "f1_macro": 0.4557
+      }
+    },
+    "neural_network": {
+      "validation": {
+        "accuracy": 0.425,
+        "log_loss": 1.0547,
+        "brier": 0.6354,
+        "f1_macro": 0.3311
+      },
+      "wc2026_live": {
+        "accuracy": 0.6289,
+        "log_loss": 0.9218,
+        "brier": 0.5402,
+        "f1_macro": 0.4759
+      }
+    },
+    "weighted_ensemble": {
+      "validation": {
+        "accuracy": 0.5,
+        "log_loss": 1.0389,
+        "brier": 0.6251,
+        "f1_macro": 0.3927
+      },
+      "wc2026_live": {
+        "accuracy": 0.6495,
+        "log_loss": 0.9085,
+        "brier": 0.5355,
+        "f1_macro": 0.4926
+      }
+    }
+  }
+}

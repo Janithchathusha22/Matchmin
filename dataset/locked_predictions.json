@@ -1,0 +1,202 @@
+{
+  "lock_type": "model_snapshot",
+  "model": "weighted_ensemble",
+  "runs": 200000,
+  "as_of": "2026-07-10",
+  "generated_at_utc": "2026-07-10T10:44:31.850463+00:00",
+  "data_fingerprint": "e6e0df0153e3991d",
+  "upcoming": [
+    {
+      "match_id": 98,
+      "date": "2026-07-10",
+      "stage": "Quarter-finals",
+      "home": "Spain",
+      "away": "Belgium",
+      "probs": {
+        "H": 0.512,
+        "D": 0.268,
+        "A": 0.219
+      },
+      "advance_prob_home": 0.6617,
+      "extra_time": {
+        "home": 0.2642,
+        "draw": 0.4872,
+        "away": 0.2486
+      },
+      "penalty_home": 0.6,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1204
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0894
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0852
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0851
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0811
+        }
+      ],
+      "pick": "Spain"
+    },
+    {
+      "match_id": 99,
+      "date": "2026-07-11",
+      "stage": "Quarter-finals",
+      "home": "Norway",
+      "away": "England",
+      "probs": {
+        "H": 0.336,
+        "D": 0.276,
+        "A": 0.388
+      },
+      "advance_prob_home": 0.4594,
+      "extra_time": {
+        "home": 0.2509,
+        "draw": 0.4872,
+        "away": 0.2619
+      },
+      "penalty_home": 0.4,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1204
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0888
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0857
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0846
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0817
+        }
+      ],
+      "pick": "England"
+    },
+    {
+      "match_id": 100,
+      "date": "2026-07-12",
+      "stage": "Quarter-finals",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "probs": {
+        "H": 0.636,
+        "D": 0.253,
+        "A": 0.111
+      },
+      "advance_prob_home": 0.7749,
+      "extra_time": {
+        "home": 0.2555,
+        "draw": 0.4873,
+        "away": 0.2572
+      },
+      "penalty_home": 0.6,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1205
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0875
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.087
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0834
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.083
+        }
+      ],
+      "pick": "Argentina"
+    }
+  ],
+  "title_odds": [
+    {
+      "team": "France",
+      "reach_qf": 1.0,
+      "reach_sf": 1.0,
+      "reach_final": 0.639,
+      "champion": 0.4267
+    },
+    {
+      "team": "Spain",
+      "reach_qf": 1.0,
+      "reach_sf": 0.6622,
+      "reach_final": 0.26,
+      "champion": 0.1643
+    },
+    {
+      "team": "Argentina",
+      "reach_qf": 1.0,
+      "reach_sf": 0.7733,
+      "reach_final": 0.3906,
+      "champion": 0.1636
+    },
+    {
+      "team": "England",
+      "reach_qf": 1.0,
+      "reach_sf": 0.5392,
+      "reach_final": 0.3222,
+      "champion": 0.1198
+    },
+    {
+      "team": "Belgium",
+      "reach_qf": 1.0,
+      "reach_sf": 0.3378,
+      "reach_final": 0.101,
+      "champion": 0.0535
+    },
+    {
+      "team": "Norway",
+      "reach_qf": 1.0,
+      "reach_sf": 0.4608,
+      "reach_final": 0.2059,
+      "champion": 0.0492
+    },
+    {
+      "team": "Switzerland",
+      "reach_qf": 1.0,
+      "reach_sf": 0.2267,
+      "reach_final": 0.0813,
+      "champion": 0.0228
+    }
+  ]
+}

@@ -1,0 +1,1448 @@
+{
+  "nodes": [
+    {
+      "id": "Mexico",
+      "group": "A",
+      "confederation": "CONCACAF",
+      "elo": 1810,
+      "fifa_rank": 14,
+      "code": "MEX",
+      "degree": 0.1064,
+      "betweenness": 0.0804,
+      "closeness": 0.3092,
+      "eigenvector": 0.1039,
+      "matches": 5
+    },
+    {
+      "id": "South Africa",
+      "group": "A",
+      "confederation": "CAF",
+      "elo": 1620,
+      "fifa_rank": 60,
+      "code": "RSA",
+      "degree": 0.0851,
+      "betweenness": 0.0637,
+      "closeness": 0.3092,
+      "eigenvector": 0.0876,
+      "matches": 4
+    },
+    {
+      "id": "South Korea",
+      "group": "A",
+      "confederation": "AFC",
+      "elo": 1800,
+      "fifa_rank": 22,
+      "code": "KOR",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2611,
+      "eigenvector": 0.0551,
+      "matches": 3
+    },
+    {
+      "id": "Czechia",
+      "group": "A",
+      "confederation": "UEFA",
+      "elo": 1740,
+      "fifa_rank": 40,
+      "code": "CZE",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2611,
+      "eigenvector": 0.0551,
+      "matches": 3
+    },
+    {
+      "id": "Canada",
+      "group": "B",
+      "confederation": "CONCACAF",
+      "elo": 1795,
+      "fifa_rank": 33,
+      "code": "CAN",
+      "degree": 0.1064,
+      "betweenness": 0.1674,
+      "closeness": 0.3643,
+      "eigenvector": 0.1776,
+      "matches": 5
+    },
+    {
+      "id": "Bosnia and Herzegovina",
+      "group": "B",
+      "confederation": "UEFA",
+      "elo": 1645,
+      "fifa_rank": 64,
+      "code": "BIH",
+      "degree": 0.0851,
+      "betweenness": 0.0434,
+      "closeness": 0.3431,
+      "eigenvector": 0.157,
+      "matches": 4
+    },
+    {
+      "id": "Qatar",
+      "group": "B",
+      "confederation": "AFC",
+      "elo": 1600,
+      "fifa_rank": 56,
+      "code": "QAT",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.3154,
+      "eigenvector": 0.125,
+      "matches": 3
+    },
+    {
+      "id": "Switzerland",
+      "group": "B",
+      "confederation": "UEFA",
+      "elo": 1860,
+      "fifa_rank": 19,
+      "code": "SUI",
+      "degree": 0.1277,
+      "betweenness": 0.1628,
+      "closeness": 0.3615,
+      "eigenvector": 0.2246,
+      "matches": 6
+    },
+    {
+      "id": "Brazil",
+      "group": "C",
+      "confederation": "CONMEBOL",
+      "elo": 2030,
+      "fifa_rank": 6,
+      "code": "BRA",
+      "degree": 0.1064,
+      "betweenness": 0.0681,
+      "closeness": 0.3219,
+      "eigenvector": 0.1656,
+      "matches": 5
+    },
+    {
+      "id": "Morocco",
+      "group": "C",
+      "confederation": "CAF",
+      "elo": 1920,
+      "fifa_rank": 7,
+      "code": "MAR",
+      "degree": 0.1277,
+      "betweenness": 0.1382,
+      "closeness": 0.3431,
+      "eigenvector": 0.2002,
+      "matches": 6
+    },
+    {
+      "id": "Haiti",
+      "group": "C",
+      "confederation": "CONCACAF",
+      "elo": 1530,
+      "fifa_rank": 83,
+      "code": "HAI",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2749,
+      "eigenvector": 0.1053,
+      "matches": 3
+    },
+    {
+      "id": "Scotland",
+      "group": "C",
+      "confederation": "UEFA",
+      "elo": 1720,
+      "fifa_rank": 39,
+      "code": "SCO",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2749,
+      "eigenvector": 0.1053,
+      "matches": 3
+    },
+    {
+      "id": "USA",
+      "group": "D",
+      "confederation": "CONCACAF",
+      "elo": 1850,
+      "fifa_rank": 17,
+      "code": "USA",
+      "degree": 0.1064,
+      "betweenness": 0.0738,
+      "closeness": 0.3406,
+      "eigenvector": 0.1748,
+      "matches": 5
+    },
+    {
+      "id": "Paraguay",
+      "group": "D",
+      "confederation": "CONMEBOL",
+      "elo": 1725,
+      "fifa_rank": 54,
+      "code": "PAR",
+      "degree": 0.1064,
+      "betweenness": 0.098,
+      "closeness": 0.3431,
+      "eigenvector": 0.1666,
+      "matches": 5
+    },
+    {
+      "id": "Australia",
+      "group": "D",
+      "confederation": "AFC",
+      "elo": 1790,
+      "fifa_rank": 27,
+      "code": "AUS",
+      "degree": 0.0851,
+      "betweenness": 0.0288,
+      "closeness": 0.3072,
+      "eigenvector": 0.1398,
+      "matches": 4
+    },
+    {
+      "id": "T\u00fcrkiye",
+      "group": "D",
+      "confederation": "UEFA",
+      "elo": 1780,
+      "fifa_rank": 26,
+      "code": "TUR",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2919,
+      "eigenvector": 0.1076,
+      "matches": 3
+    },
+    {
+      "id": "Germany",
+      "group": "E",
+      "confederation": "UEFA",
+      "elo": 1970,
+      "fifa_rank": 10,
+      "code": "GER",
+      "degree": 0.0851,
+      "betweenness": 0.0397,
+      "closeness": 0.2919,
+      "eigenvector": 0.092,
+      "matches": 4
+    },
+    {
+      "id": "Cura\u00e7ao",
+      "group": "E",
+      "confederation": "CONCACAF",
+      "elo": 1520,
+      "fifa_rank": 82,
+      "code": "CUW",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2541,
+      "eigenvector": 0.0616,
+      "matches": 3
+    },
+    {
+      "id": "C\u00f4te d'Ivoire",
+      "group": "E",
+      "confederation": "CAF",
+      "elo": 1750,
+      "fifa_rank": 38,
+      "code": "CIV",
+      "degree": 0.0851,
+      "betweenness": 0.0348,
+      "closeness": 0.2994,
+      "eigenvector": 0.1028,
+      "matches": 4
+    },
+    {
+      "id": "Ecuador",
+      "group": "E",
+      "confederation": "CONMEBOL",
+      "elo": 1870,
+      "fifa_rank": 23,
+      "code": "ECU",
+      "degree": 0.0851,
+      "betweenness": 0.0291,
+      "closeness": 0.2781,
+      "eigenvector": 0.0805,
+      "matches": 4
+    },
+    {
+      "id": "Netherlands",
+      "group": "F",
+      "confederation": "UEFA",
+      "elo": 1980,
+      "fifa_rank": 8,
+      "code": "NED",
+      "degree": 0.0851,
+      "betweenness": 0.0245,
+      "closeness": 0.2655,
+      "eigenvector": 0.1106,
+      "matches": 4
+    },
+    {
+      "id": "Japan",
+      "group": "F",
+      "confederation": "AFC",
+      "elo": 1880,
+      "fifa_rank": 18,
+      "code": "JPN",
+      "degree": 0.0851,
+      "betweenness": 0.0104,
+      "closeness": 0.2597,
+      "eigenvector": 0.1043,
+      "matches": 4
+    },
+    {
+      "id": "Sweden",
+      "group": "F",
+      "confederation": "UEFA",
+      "elo": 1815,
+      "fifa_rank": 25,
+      "code": "SWE",
+      "degree": 0.0851,
+      "betweenness": 0.0385,
+      "closeness": 0.2814,
+      "eigenvector": 0.1162,
+      "matches": 4
+    },
+    {
+      "id": "Tunisia",
+      "group": "F",
+      "confederation": "CAF",
+      "elo": 1710,
+      "fifa_rank": 45,
+      "code": "TUN",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2398,
+      "eigenvector": 0.074,
+      "matches": 3
+    },
+    {
+      "id": "Belgium",
+      "group": "G",
+      "confederation": "UEFA",
+      "elo": 1950,
+      "fifa_rank": 9,
+      "code": "BEL",
+      "degree": 0.1277,
+      "betweenness": 0.1775,
+      "closeness": 0.3588,
+      "eigenvector": 0.2111,
+      "matches": 6
+    },
+    {
+      "id": "Egypt",
+      "group": "G",
+      "confederation": "CAF",
+      "elo": 1730,
+      "fifa_rank": 36,
+      "code": "EGY",
+      "degree": 0.1064,
+      "betweenness": 0.0561,
+      "closeness": 0.3113,
+      "eigenvector": 0.1763,
+      "matches": 5
+    },
+    {
+      "id": "IR Iran",
+      "group": "G",
+      "confederation": "AFC",
+      "elo": 1820,
+      "fifa_rank": 20,
+      "code": "IRN",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2765,
+      "eigenvector": 0.1115,
+      "matches": 3
+    },
+    {
+      "id": "New Zealand",
+      "group": "G",
+      "confederation": "OFC",
+      "elo": 1510,
+      "fifa_rank": 85,
+      "code": "NZL",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2765,
+      "eigenvector": 0.1115,
+      "matches": 3
+    },
+    {
+      "id": "Spain",
+      "group": "H",
+      "confederation": "UEFA",
+      "elo": 2120,
+      "fifa_rank": 2,
+      "code": "ESP",
+      "degree": 0.1277,
+      "betweenness": 0.1422,
+      "closeness": 0.3241,
+      "eigenvector": 0.1886,
+      "matches": 6
+    },
+    {
+      "id": "Cabo Verde",
+      "group": "H",
+      "confederation": "CAF",
+      "elo": 1640,
+      "fifa_rank": 67,
+      "code": "CPV",
+      "degree": 0.0851,
+      "betweenness": 0.0193,
+      "closeness": 0.2798,
+      "eigenvector": 0.1314,
+      "matches": 4
+    },
+    {
+      "id": "Saudi Arabia",
+      "group": "H",
+      "confederation": "AFC",
+      "elo": 1660,
+      "fifa_rank": 58,
+      "code": "KSA",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2554,
+      "eigenvector": 0.0921,
+      "matches": 3
+    },
+    {
+      "id": "Uruguay",
+      "group": "H",
+      "confederation": "CONMEBOL",
+      "elo": 1960,
+      "fifa_rank": 16,
+      "code": "URU",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2554,
+      "eigenvector": 0.0921,
+      "matches": 3
+    },
+    {
+      "id": "France",
+      "group": "I",
+      "confederation": "UEFA",
+      "elo": 2100,
+      "fifa_rank": 3,
+      "code": "FRA",
+      "degree": 0.1277,
+      "betweenness": 0.1414,
+      "closeness": 0.3672,
+      "eigenvector": 0.2308,
+      "matches": 6
+    },
+    {
+      "id": "Senegal",
+      "group": "I",
+      "confederation": "CAF",
+      "elo": 1840,
+      "fifa_rank": 15,
+      "code": "SEN",
+      "degree": 0.0851,
+      "betweenness": 0.1093,
+      "closeness": 0.3588,
+      "eigenvector": 0.1811,
+      "matches": 4
+    },
+    {
+      "id": "Iraq",
+      "group": "I",
+      "confederation": "AFC",
+      "elo": 1630,
+      "fifa_rank": 55,
+      "code": "IRQ",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.3219,
+      "eigenvector": 0.1425,
+      "matches": 3
+    },
+    {
+      "id": "Norway",
+      "group": "I",
+      "confederation": "UEFA",
+      "elo": 1775,
+      "fifa_rank": 44,
+      "code": "NOR",
+      "degree": 0.1277,
+      "betweenness": 0.1879,
+      "closeness": 0.373,
+      "eigenvector": 0.2256,
+      "matches": 6
+    },
+    {
+      "id": "Argentina",
+      "group": "J",
+      "confederation": "CONMEBOL",
+      "elo": 2150,
+      "fifa_rank": 1,
+      "code": "ARG",
+      "degree": 0.1277,
+      "betweenness": 0.0965,
+      "closeness": 0.3264,
+      "eigenvector": 0.2146,
+      "matches": 6
+    },
+    {
+      "id": "Algeria",
+      "group": "J",
+      "confederation": "CAF",
+      "elo": 1760,
+      "fifa_rank": 28,
+      "code": "ALG",
+      "degree": 0.0851,
+      "betweenness": 0.0177,
+      "closeness": 0.2938,
+      "eigenvector": 0.1584,
+      "matches": 4
+    },
+    {
+      "id": "Austria",
+      "group": "J",
+      "confederation": "UEFA",
+      "elo": 1830,
+      "fifa_rank": 24,
+      "code": "AUT",
+      "degree": 0.0851,
+      "betweenness": 0.0142,
+      "closeness": 0.2798,
+      "eigenvector": 0.1518,
+      "matches": 4
+    },
+    {
+      "id": "Jordan",
+      "group": "J",
+      "confederation": "AFC",
+      "elo": 1610,
+      "fifa_rank": 63,
+      "code": "JOR",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2541,
+      "eigenvector": 0.1173,
+      "matches": 3
+    },
+    {
+      "id": "Portugal",
+      "group": "K",
+      "confederation": "UEFA",
+      "elo": 2010,
+      "fifa_rank": 5,
+      "code": "POR",
+      "degree": 0.1064,
+      "betweenness": 0.0701,
+      "closeness": 0.3113,
+      "eigenvector": 0.1652,
+      "matches": 5
+    },
+    {
+      "id": "Congo DR",
+      "group": "K",
+      "confederation": "CAF",
+      "elo": 1670,
+      "fifa_rank": 61,
+      "code": "COD",
+      "degree": 0.0851,
+      "betweenness": 0.0394,
+      "closeness": 0.3197,
+      "eigenvector": 0.1409,
+      "matches": 4
+    },
+    {
+      "id": "Uzbekistan",
+      "group": "K",
+      "confederation": "AFC",
+      "elo": 1650,
+      "fifa_rank": 50,
+      "code": "UZB",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2798,
+      "eigenvector": 0.1069,
+      "matches": 3
+    },
+    {
+      "id": "Colombia",
+      "group": "K",
+      "confederation": "CONMEBOL",
+      "elo": 1990,
+      "fifa_rank": 13,
+      "code": "COL",
+      "degree": 0.1064,
+      "betweenness": 0.0609,
+      "closeness": 0.3176,
+      "eigenvector": 0.172,
+      "matches": 5
+    },
+    {
+      "id": "England",
+      "group": "L",
+      "confederation": "UEFA",
+      "elo": 2050,
+      "fifa_rank": 4,
+      "code": "ENG",
+      "degree": 0.1277,
+      "betweenness": 0.1604,
+      "closeness": 0.3481,
+      "eigenvector": 0.1862,
+      "matches": 6
+    },
+    {
+      "id": "Croatia",
+      "group": "L",
+      "confederation": "UEFA",
+      "elo": 1940,
+      "fifa_rank": 11,
+      "code": "CRO",
+      "degree": 0.0851,
+      "betweenness": 0.0261,
+      "closeness": 0.3072,
+      "eigenvector": 0.1304,
+      "matches": 4
+    },
+    {
+      "id": "Ghana",
+      "group": "L",
+      "confederation": "CAF",
+      "elo": 1690,
+      "fifa_rank": 49,
+      "code": "GHA",
+      "degree": 0.0851,
+      "betweenness": 0.0187,
+      "closeness": 0.3032,
+      "eigenvector": 0.1316,
+      "matches": 4
+    },
+    {
+      "id": "Panama",
+      "group": "L",
+      "confederation": "CONCACAF",
+      "elo": 1680,
+      "fifa_rank": 34,
+      "code": "PAN",
+      "degree": 0.0638,
+      "betweenness": 0.0,
+      "closeness": 0.2831,
+      "eigenvector": 0.1002,
+      "matches": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "Mexico",
+      "target": "South Africa",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-0",
+      "knockout": false
+    },
+    {
+      "source": "Mexico",
+      "target": "South Korea",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-0",
+      "knockout": false
+    },
+    {
+      "source": "Mexico",
+      "target": "Czechia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-3",
+      "knockout": false
+    },
+    {
+      "source": "Mexico",
+      "target": "Ecuador",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-0",
+      "knockout": true
+    },
+    {
+      "source": "Mexico",
+      "target": "England",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "2-3",
+      "knockout": true
+    },
+    {
+      "source": "South Africa",
+      "target": "Czechia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "South Africa",
+      "target": "South Korea",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-0",
+      "knockout": false
+    },
+    {
+      "source": "South Africa",
+      "target": "Canada",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "0-1",
+      "knockout": true
+    },
+    {
+      "source": "South Korea",
+      "target": "Czechia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-1",
+      "knockout": false
+    },
+    {
+      "source": "Canada",
+      "target": "Bosnia and Herzegovina",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Canada",
+      "target": "Qatar",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "6-0",
+      "knockout": false
+    },
+    {
+      "source": "Canada",
+      "target": "Switzerland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-1",
+      "knockout": false
+    },
+    {
+      "source": "Canada",
+      "target": "Morocco",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "0-3",
+      "knockout": true
+    },
+    {
+      "source": "Bosnia and Herzegovina",
+      "target": "Switzerland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "4-1",
+      "knockout": false
+    },
+    {
+      "source": "Bosnia and Herzegovina",
+      "target": "Qatar",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-1",
+      "knockout": false
+    },
+    {
+      "source": "Bosnia and Herzegovina",
+      "target": "USA",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-0",
+      "knockout": true
+    },
+    {
+      "source": "Qatar",
+      "target": "Switzerland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Switzerland",
+      "target": "Algeria",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-0",
+      "knockout": true
+    },
+    {
+      "source": "Switzerland",
+      "target": "Colombia",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "0-0",
+      "knockout": true
+    },
+    {
+      "source": "Switzerland",
+      "target": "Argentina",
+      "stage": "Quarter-finals",
+      "played": false,
+      "score": null,
+      "knockout": true
+    },
+    {
+      "source": "Brazil",
+      "target": "Morocco",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Brazil",
+      "target": "Haiti",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-0",
+      "knockout": false
+    },
+    {
+      "source": "Brazil",
+      "target": "Scotland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-3",
+      "knockout": false
+    },
+    {
+      "source": "Brazil",
+      "target": "Japan",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-1",
+      "knockout": true
+    },
+    {
+      "source": "Brazil",
+      "target": "Norway",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "1-2",
+      "knockout": true
+    },
+    {
+      "source": "Morocco",
+      "target": "Scotland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-1",
+      "knockout": false
+    },
+    {
+      "source": "Morocco",
+      "target": "Haiti",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "4-2",
+      "knockout": false
+    },
+    {
+      "source": "Morocco",
+      "target": "Netherlands",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "1-1",
+      "knockout": true
+    },
+    {
+      "source": "Morocco",
+      "target": "France",
+      "stage": "Quarter-finals",
+      "played": true,
+      "score": "2-0",
+      "knockout": true
+    },
+    {
+      "source": "Haiti",
+      "target": "Scotland",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-1",
+      "knockout": false
+    },
+    {
+      "source": "USA",
+      "target": "Paraguay",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "4-1",
+      "knockout": false
+    },
+    {
+      "source": "USA",
+      "target": "Australia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-0",
+      "knockout": false
+    },
+    {
+      "source": "USA",
+      "target": "T\u00fcrkiye",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-2",
+      "knockout": false
+    },
+    {
+      "source": "USA",
+      "target": "Belgium",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "1-4",
+      "knockout": true
+    },
+    {
+      "source": "Paraguay",
+      "target": "T\u00fcrkiye",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-1",
+      "knockout": false
+    },
+    {
+      "source": "Paraguay",
+      "target": "Australia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Paraguay",
+      "target": "Germany",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "1-1",
+      "knockout": true
+    },
+    {
+      "source": "Paraguay",
+      "target": "France",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "0-1",
+      "knockout": true
+    },
+    {
+      "source": "Australia",
+      "target": "T\u00fcrkiye",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-0",
+      "knockout": false
+    },
+    {
+      "source": "Australia",
+      "target": "Egypt",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "1-1",
+      "knockout": true
+    },
+    {
+      "source": "Germany",
+      "target": "Cura\u00e7ao",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "7-1",
+      "knockout": false
+    },
+    {
+      "source": "Germany",
+      "target": "C\u00f4te d'Ivoire",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-1",
+      "knockout": false
+    },
+    {
+      "source": "Germany",
+      "target": "Ecuador",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-1",
+      "knockout": false
+    },
+    {
+      "source": "Cura\u00e7ao",
+      "target": "Ecuador",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Cura\u00e7ao",
+      "target": "C\u00f4te d'Ivoire",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-2",
+      "knockout": false
+    },
+    {
+      "source": "C\u00f4te d'Ivoire",
+      "target": "Ecuador",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-0",
+      "knockout": false
+    },
+    {
+      "source": "C\u00f4te d'Ivoire",
+      "target": "Norway",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "1-2",
+      "knockout": true
+    },
+    {
+      "source": "Netherlands",
+      "target": "Japan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-2",
+      "knockout": false
+    },
+    {
+      "source": "Netherlands",
+      "target": "Sweden",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "5-1",
+      "knockout": false
+    },
+    {
+      "source": "Netherlands",
+      "target": "Tunisia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-3",
+      "knockout": false
+    },
+    {
+      "source": "Japan",
+      "target": "Tunisia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-4",
+      "knockout": false
+    },
+    {
+      "source": "Japan",
+      "target": "Sweden",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Sweden",
+      "target": "Tunisia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "5-1",
+      "knockout": false
+    },
+    {
+      "source": "Sweden",
+      "target": "France",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "3-0",
+      "knockout": true
+    },
+    {
+      "source": "Belgium",
+      "target": "Egypt",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Belgium",
+      "target": "IR Iran",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Belgium",
+      "target": "New Zealand",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-5",
+      "knockout": false
+    },
+    {
+      "source": "Belgium",
+      "target": "Senegal",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "3-2",
+      "knockout": true
+    },
+    {
+      "source": "Belgium",
+      "target": "Spain",
+      "stage": "Quarter-finals",
+      "played": false,
+      "score": null,
+      "knockout": true
+    },
+    {
+      "source": "Egypt",
+      "target": "New Zealand",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-3",
+      "knockout": false
+    },
+    {
+      "source": "Egypt",
+      "target": "IR Iran",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Egypt",
+      "target": "Argentina",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "3-2",
+      "knockout": true
+    },
+    {
+      "source": "IR Iran",
+      "target": "New Zealand",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-2",
+      "knockout": false
+    },
+    {
+      "source": "Spain",
+      "target": "Cabo Verde",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Spain",
+      "target": "Saudi Arabia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "4-0",
+      "knockout": false
+    },
+    {
+      "source": "Spain",
+      "target": "Uruguay",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-1",
+      "knockout": false
+    },
+    {
+      "source": "Spain",
+      "target": "Austria",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "3-0",
+      "knockout": true
+    },
+    {
+      "source": "Spain",
+      "target": "Portugal",
+      "stage": "Round of 16",
+      "played": true,
+      "score": "0-1",
+      "knockout": true
+    },
+    {
+      "source": "Cabo Verde",
+      "target": "Uruguay",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-2",
+      "knockout": false
+    },
+    {
+      "source": "Cabo Verde",
+      "target": "Saudi Arabia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Cabo Verde",
+      "target": "Argentina",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "3-2",
+      "knockout": true
+    },
+    {
+      "source": "Saudi Arabia",
+      "target": "Uruguay",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "France",
+      "target": "Senegal",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-1",
+      "knockout": false
+    },
+    {
+      "source": "France",
+      "target": "Iraq",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-0",
+      "knockout": false
+    },
+    {
+      "source": "France",
+      "target": "Norway",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-4",
+      "knockout": false
+    },
+    {
+      "source": "Senegal",
+      "target": "Norway",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-2",
+      "knockout": false
+    },
+    {
+      "source": "Senegal",
+      "target": "Iraq",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "5-0",
+      "knockout": false
+    },
+    {
+      "source": "Iraq",
+      "target": "Norway",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-4",
+      "knockout": false
+    },
+    {
+      "source": "Norway",
+      "target": "England",
+      "stage": "Quarter-finals",
+      "played": false,
+      "score": null,
+      "knockout": true
+    },
+    {
+      "source": "Argentina",
+      "target": "Algeria",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-0",
+      "knockout": false
+    },
+    {
+      "source": "Argentina",
+      "target": "Austria",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-0",
+      "knockout": false
+    },
+    {
+      "source": "Argentina",
+      "target": "Jordan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-3",
+      "knockout": false
+    },
+    {
+      "source": "Algeria",
+      "target": "Jordan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-2",
+      "knockout": false
+    },
+    {
+      "source": "Algeria",
+      "target": "Austria",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-3",
+      "knockout": false
+    },
+    {
+      "source": "Austria",
+      "target": "Jordan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-1",
+      "knockout": false
+    },
+    {
+      "source": "Portugal",
+      "target": "Congo DR",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-1",
+      "knockout": false
+    },
+    {
+      "source": "Portugal",
+      "target": "Uzbekistan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "5-0",
+      "knockout": false
+    },
+    {
+      "source": "Portugal",
+      "target": "Colombia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "Portugal",
+      "target": "Croatia",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-1",
+      "knockout": true
+    },
+    {
+      "source": "Congo DR",
+      "target": "Colombia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-0",
+      "knockout": false
+    },
+    {
+      "source": "Congo DR",
+      "target": "Uzbekistan",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "3-1",
+      "knockout": false
+    },
+    {
+      "source": "Congo DR",
+      "target": "England",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "2-1",
+      "knockout": true
+    },
+    {
+      "source": "Uzbekistan",
+      "target": "Colombia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-3",
+      "knockout": false
+    },
+    {
+      "source": "Colombia",
+      "target": "Ghana",
+      "stage": "Round of 32",
+      "played": true,
+      "score": "1-0",
+      "knockout": true
+    },
+    {
+      "source": "England",
+      "target": "Croatia",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "4-2",
+      "knockout": false
+    },
+    {
+      "source": "England",
+      "target": "Ghana",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-0",
+      "knockout": false
+    },
+    {
+      "source": "England",
+      "target": "Panama",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-2",
+      "knockout": false
+    },
+    {
+      "source": "Croatia",
+      "target": "Panama",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "0-1",
+      "knockout": false
+    },
+    {
+      "source": "Croatia",
+      "target": "Ghana",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "2-1",
+      "knockout": false
+    },
+    {
+      "source": "Ghana",
+      "target": "Panama",
+      "stage": "Group Stage",
+      "played": true,
+      "score": "1-0",
+      "knockout": false
+    }
+  ],
+  "insights": [
+    {
+      "title": "Tournament bridge",
+      "text": "Norway has the highest betweenness centrality (0.188) \u2014 the busiest crossroads of the bracket."
+    },
+    {
+      "title": "Strongest neighbourhood",
+      "text": "France tops eigenvector centrality (0.231) \u2014 it keeps meeting the tournament's most connected teams."
+    },
+    {
+      "title": "Small world",
+      "text": "Average shortest path in the main component: 3.34 hops across 48 teams."
+    },
+    {
+      "title": "Group density",
+      "text": "100 matches connect 48 teams \u2014 graph density 0.089, with 12 complete K4 group cliques."
+    }
+  ]
+}
