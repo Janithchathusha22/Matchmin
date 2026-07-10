@@ -1,0 +1,1754 @@
+{
+  "model": "weighted_ensemble",
+  "matches_scored": 97,
+  "correct": 63,
+  "accuracy": 0.6495,
+  "matches": [
+    {
+      "match_id": 1,
+      "date": "2026-06-11",
+      "stage": "Group Stage",
+      "home": "Mexico",
+      "away": "South Africa",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.477,
+        "D": 0.276,
+        "A": 0.247
+      },
+      "running_accuracy": 1.0
+    },
+    {
+      "match_id": 2,
+      "date": "2026-06-11",
+      "stage": "Group Stage",
+      "home": "South Korea",
+      "away": "Czechia",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.4,
+        "D": 0.279,
+        "A": 0.321
+      },
+      "running_accuracy": 1.0
+    },
+    {
+      "match_id": 3,
+      "date": "2026-06-12",
+      "stage": "Group Stage",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.453,
+        "D": 0.277,
+        "A": 0.27
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 4,
+      "date": "2026-06-12",
+      "stage": "Group Stage",
+      "home": "USA",
+      "away": "Paraguay",
+      "home_score": 4,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.442,
+        "D": 0.278,
+        "A": 0.28
+      },
+      "running_accuracy": 0.75
+    },
+    {
+      "match_id": 5,
+      "date": "2026-06-13",
+      "stage": "Group Stage",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.202,
+        "D": 0.267,
+        "A": 0.532
+      },
+      "running_accuracy": 0.6
+    },
+    {
+      "match_id": 6,
+      "date": "2026-06-13",
+      "stage": "Group Stage",
+      "home": "Brazil",
+      "away": "Morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.443,
+        "D": 0.278,
+        "A": 0.279
+      },
+      "running_accuracy": 0.5
+    },
+    {
+      "match_id": 7,
+      "date": "2026-06-13",
+      "stage": "Group Stage",
+      "home": "Haiti",
+      "away": "Scotland",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.229,
+        "D": 0.271,
+        "A": 0.5
+      },
+      "running_accuracy": 0.5714
+    },
+    {
+      "match_id": 8,
+      "date": "2026-06-13",
+      "stage": "Group Stage",
+      "home": "Australia",
+      "away": "Türkiye",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.369,
+        "D": 0.279,
+        "A": 0.352
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 9,
+      "date": "2026-06-14",
+      "stage": "Group Stage",
+      "home": "Germany",
+      "away": "Curaçao",
+      "home_score": 7,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.598,
+        "D": 0.266,
+        "A": 0.136
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 10,
+      "date": "2026-06-14",
+      "stage": "Group Stage",
+      "home": "Netherlands",
+      "away": "Japan",
+      "home_score": 2,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.435,
+        "D": 0.278,
+        "A": 0.287
+      },
+      "running_accuracy": 0.6
+    },
+    {
+      "match_id": 11,
+      "date": "2026-06-14",
+      "stage": "Group Stage",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.289,
+        "D": 0.277,
+        "A": 0.435
+      },
+      "running_accuracy": 0.5455
+    },
+    {
+      "match_id": 12,
+      "date": "2026-06-14",
+      "stage": "Group Stage",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "home_score": 5,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.428,
+        "D": 0.278,
+        "A": 0.294
+      },
+      "running_accuracy": 0.5833
+    },
+    {
+      "match_id": 13,
+      "date": "2026-06-15",
+      "stage": "Group Stage",
+      "home": "Spain",
+      "away": "Cabo Verde",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.605,
+        "D": 0.268,
+        "A": 0.127
+      },
+      "running_accuracy": 0.5385
+    },
+    {
+      "match_id": 14,
+      "date": "2026-06-15",
+      "stage": "Group Stage",
+      "home": "Belgium",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.498,
+        "D": 0.275,
+        "A": 0.227
+      },
+      "running_accuracy": 0.5
+    },
+    {
+      "match_id": 15,
+      "date": "2026-06-15",
+      "stage": "Group Stage",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.19,
+        "D": 0.265,
+        "A": 0.546
+      },
+      "running_accuracy": 0.4667
+    },
+    {
+      "match_id": 16,
+      "date": "2026-06-15",
+      "stage": "Group Stage",
+      "home": "IR Iran",
+      "away": "New Zealand",
+      "home_score": 2,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.54,
+        "D": 0.271,
+        "A": 0.19
+      },
+      "running_accuracy": 0.4375
+    },
+    {
+      "match_id": 17,
+      "date": "2026-06-16",
+      "stage": "Group Stage",
+      "home": "France",
+      "away": "Senegal",
+      "home_score": 3,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.521,
+        "D": 0.274,
+        "A": 0.205
+      },
+      "running_accuracy": 0.4706
+    },
+    {
+      "match_id": 18,
+      "date": "2026-06-16",
+      "stage": "Group Stage",
+      "home": "Iraq",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 4,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.263,
+        "D": 0.275,
+        "A": 0.463
+      },
+      "running_accuracy": 0.5
+    },
+    {
+      "match_id": 19,
+      "date": "2026-06-16",
+      "stage": "Group Stage",
+      "home": "Argentina",
+      "away": "Algeria",
+      "home_score": 3,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.574,
+        "D": 0.271,
+        "A": 0.155
+      },
+      "running_accuracy": 0.5263
+    },
+    {
+      "match_id": 20,
+      "date": "2026-06-16",
+      "stage": "Group Stage",
+      "home": "Austria",
+      "away": "Jordan",
+      "home_score": 3,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.494,
+        "D": 0.275,
+        "A": 0.231
+      },
+      "running_accuracy": 0.55
+    },
+    {
+      "match_id": 21,
+      "date": "2026-06-17",
+      "stage": "Group Stage",
+      "home": "Portugal",
+      "away": "Congo DR",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.555,
+        "D": 0.271,
+        "A": 0.174
+      },
+      "running_accuracy": 0.5238
+    },
+    {
+      "match_id": 22,
+      "date": "2026-06-17",
+      "stage": "Group Stage",
+      "home": "England",
+      "away": "Croatia",
+      "home_score": 4,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.444,
+        "D": 0.278,
+        "A": 0.278
+      },
+      "running_accuracy": 0.5455
+    },
+    {
+      "match_id": 23,
+      "date": "2026-06-17",
+      "stage": "Group Stage",
+      "home": "Ghana",
+      "away": "Panama",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.361,
+        "D": 0.279,
+        "A": 0.36
+      },
+      "running_accuracy": 0.5652
+    },
+    {
+      "match_id": 24,
+      "date": "2026-06-17",
+      "stage": "Group Stage",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "home_score": 1,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.173,
+        "D": 0.261,
+        "A": 0.566
+      },
+      "running_accuracy": 0.5833
+    },
+    {
+      "match_id": 25,
+      "date": "2026-06-18",
+      "stage": "Group Stage",
+      "home": "Mexico",
+      "away": "South Korea",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.477,
+        "D": 0.273,
+        "A": 0.25
+      },
+      "running_accuracy": 0.6
+    },
+    {
+      "match_id": 26,
+      "date": "2026-06-18",
+      "stage": "Group Stage",
+      "home": "Czechia",
+      "away": "South Africa",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.355,
+        "D": 0.284,
+        "A": 0.361
+      },
+      "running_accuracy": 0.5769
+    },
+    {
+      "match_id": 27,
+      "date": "2026-06-18",
+      "stage": "Group Stage",
+      "home": "Canada",
+      "away": "Qatar",
+      "home_score": 6,
+      "away_score": 0,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.348,
+        "D": 0.277,
+        "A": 0.375
+      },
+      "running_accuracy": 0.5556
+    },
+    {
+      "match_id": 28,
+      "date": "2026-06-18",
+      "stage": "Group Stage",
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "home_score": 4,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.365,
+        "D": 0.277,
+        "A": 0.358
+      },
+      "running_accuracy": 0.5714
+    },
+    {
+      "match_id": 29,
+      "date": "2026-06-19",
+      "stage": "Group Stage",
+      "home": "Brazil",
+      "away": "Haiti",
+      "home_score": 3,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.525,
+        "D": 0.276,
+        "A": 0.198
+      },
+      "running_accuracy": 0.5862
+    },
+    {
+      "match_id": 30,
+      "date": "2026-06-19",
+      "stage": "Group Stage",
+      "home": "Scotland",
+      "away": "Morocco",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.263,
+        "D": 0.27,
+        "A": 0.467
+      },
+      "running_accuracy": 0.6
+    },
+    {
+      "match_id": 31,
+      "date": "2026-06-19",
+      "stage": "Group Stage",
+      "home": "USA",
+      "away": "Australia",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.582,
+        "D": 0.254,
+        "A": 0.164
+      },
+      "running_accuracy": 0.6129
+    },
+    {
+      "match_id": 32,
+      "date": "2026-06-19",
+      "stage": "Group Stage",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.315,
+        "D": 0.286,
+        "A": 0.399
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 33,
+      "date": "2026-06-20",
+      "stage": "Group Stage",
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.699,
+        "D": 0.22,
+        "A": 0.081
+      },
+      "running_accuracy": 0.6364
+    },
+    {
+      "match_id": 34,
+      "date": "2026-06-20",
+      "stage": "Group Stage",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.436,
+        "D": 0.292,
+        "A": 0.272
+      },
+      "running_accuracy": 0.6176
+    },
+    {
+      "match_id": 35,
+      "date": "2026-06-20",
+      "stage": "Group Stage",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_score": 5,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.474,
+        "D": 0.266,
+        "A": 0.26
+      },
+      "running_accuracy": 0.6286
+    },
+    {
+      "match_id": 36,
+      "date": "2026-06-20",
+      "stage": "Group Stage",
+      "home": "Tunisia",
+      "away": "Japan",
+      "home_score": 0,
+      "away_score": 4,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.326,
+        "D": 0.277,
+        "A": 0.397
+      },
+      "running_accuracy": 0.6389
+    },
+    {
+      "match_id": 37,
+      "date": "2026-06-21",
+      "stage": "Group Stage",
+      "home": "Belgium",
+      "away": "IR Iran",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.323,
+        "D": 0.277,
+        "A": 0.4
+      },
+      "running_accuracy": 0.6216
+    },
+    {
+      "match_id": 38,
+      "date": "2026-06-21",
+      "stage": "Group Stage",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.155,
+        "D": 0.253,
+        "A": 0.592
+      },
+      "running_accuracy": 0.6316
+    },
+    {
+      "match_id": 39,
+      "date": "2026-06-21",
+      "stage": "Group Stage",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_score": 4,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.457,
+        "D": 0.278,
+        "A": 0.265
+      },
+      "running_accuracy": 0.641
+    },
+    {
+      "match_id": 40,
+      "date": "2026-06-21",
+      "stage": "Group Stage",
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "home_score": 2,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.43,
+        "D": 0.277,
+        "A": 0.293
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 41,
+      "date": "2026-06-22",
+      "stage": "Group Stage",
+      "home": "France",
+      "away": "Iraq",
+      "home_score": 3,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.668,
+        "D": 0.251,
+        "A": 0.08
+      },
+      "running_accuracy": 0.6341
+    },
+    {
+      "match_id": 42,
+      "date": "2026-06-22",
+      "stage": "Group Stage",
+      "home": "Norway",
+      "away": "Senegal",
+      "home_score": 3,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.437,
+        "D": 0.276,
+        "A": 0.287
+      },
+      "running_accuracy": 0.6429
+    },
+    {
+      "match_id": 43,
+      "date": "2026-06-22",
+      "stage": "Group Stage",
+      "home": "Argentina",
+      "away": "Austria",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.647,
+        "D": 0.247,
+        "A": 0.106
+      },
+      "running_accuracy": 0.6512
+    },
+    {
+      "match_id": 44,
+      "date": "2026-06-22",
+      "stage": "Group Stage",
+      "home": "Jordan",
+      "away": "Algeria",
+      "home_score": 1,
+      "away_score": 2,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.245,
+        "D": 0.281,
+        "A": 0.474
+      },
+      "running_accuracy": 0.6591
+    },
+    {
+      "match_id": 45,
+      "date": "2026-06-23",
+      "stage": "Group Stage",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_score": 5,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.462,
+        "D": 0.281,
+        "A": 0.257
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 46,
+      "date": "2026-06-23",
+      "stage": "Group Stage",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.629,
+        "D": 0.25,
+        "A": 0.121
+      },
+      "running_accuracy": 0.6739
+    },
+    {
+      "match_id": 47,
+      "date": "2026-06-23",
+      "stage": "Group Stage",
+      "home": "England",
+      "away": "Ghana",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.701,
+        "D": 0.237,
+        "A": 0.062
+      },
+      "running_accuracy": 0.6596
+    },
+    {
+      "match_id": 48,
+      "date": "2026-06-23",
+      "stage": "Group Stage",
+      "home": "Panama",
+      "away": "Croatia",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.129,
+        "D": 0.258,
+        "A": 0.613
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 49,
+      "date": "2026-06-24",
+      "stage": "Group Stage",
+      "home": "Czechia",
+      "away": "Mexico",
+      "home_score": 0,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.283,
+        "D": 0.277,
+        "A": 0.44
+      },
+      "running_accuracy": 0.6735
+    },
+    {
+      "match_id": 50,
+      "date": "2026-06-24",
+      "stage": "Group Stage",
+      "home": "South Africa",
+      "away": "South Korea",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.188,
+        "D": 0.269,
+        "A": 0.543
+      },
+      "running_accuracy": 0.66
+    },
+    {
+      "match_id": 51,
+      "date": "2026-06-24",
+      "stage": "Group Stage",
+      "home": "Switzerland",
+      "away": "Canada",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.426,
+        "D": 0.268,
+        "A": 0.306
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 52,
+      "date": "2026-06-24",
+      "stage": "Group Stage",
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "home_score": 3,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.331,
+        "D": 0.286,
+        "A": 0.383
+      },
+      "running_accuracy": 0.6538
+    },
+    {
+      "match_id": 53,
+      "date": "2026-06-25",
+      "stage": "Group Stage",
+      "home": "Scotland",
+      "away": "Brazil",
+      "home_score": 0,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.174,
+        "D": 0.26,
+        "A": 0.565
+      },
+      "running_accuracy": 0.6604
+    },
+    {
+      "match_id": 54,
+      "date": "2026-06-25",
+      "stage": "Group Stage",
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_score": 4,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.534,
+        "D": 0.276,
+        "A": 0.19
+      },
+      "running_accuracy": 0.6667
+    },
+    {
+      "match_id": 55,
+      "date": "2026-06-25",
+      "stage": "Group Stage",
+      "home": "Türkiye",
+      "away": "USA",
+      "home_score": 3,
+      "away_score": 2,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.275,
+        "D": 0.276,
+        "A": 0.45
+      },
+      "running_accuracy": 0.6545
+    },
+    {
+      "match_id": 56,
+      "date": "2026-06-25",
+      "stage": "Group Stage",
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.375,
+        "D": 0.28,
+        "A": 0.345
+      },
+      "running_accuracy": 0.6429
+    },
+    {
+      "match_id": 57,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Ecuador",
+      "away": "Germany",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.218,
+        "D": 0.267,
+        "A": 0.515
+      },
+      "running_accuracy": 0.6316
+    },
+    {
+      "match_id": 58,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire",
+      "home_score": 0,
+      "away_score": 2,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.237,
+        "D": 0.276,
+        "A": 0.488
+      },
+      "running_accuracy": 0.6379
+    },
+    {
+      "match_id": 59,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "home_score": 1,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.271,
+        "D": 0.273,
+        "A": 0.456
+      },
+      "running_accuracy": 0.6441
+    },
+    {
+      "match_id": 60,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Japan",
+      "away": "Sweden",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.442,
+        "D": 0.275,
+        "A": 0.282
+      },
+      "running_accuracy": 0.6333
+    },
+    {
+      "match_id": 61,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "home_score": 1,
+      "away_score": 5,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.102,
+        "D": 0.24,
+        "A": 0.658
+      },
+      "running_accuracy": 0.6393
+    },
+    {
+      "match_id": 62,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "Egypt",
+      "away": "IR Iran",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.281,
+        "D": 0.272,
+        "A": 0.447
+      },
+      "running_accuracy": 0.629
+    },
+    {
+      "match_id": 63,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "Uruguay",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.224,
+        "D": 0.266,
+        "A": 0.51
+      },
+      "running_accuracy": 0.6349
+    },
+    {
+      "match_id": 64,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "Cabo Verde",
+      "away": "Saudi Arabia",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.221,
+        "D": 0.275,
+        "A": 0.505
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 65,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Norway",
+      "away": "France",
+      "home_score": 1,
+      "away_score": 4,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.354,
+        "D": 0.272,
+        "A": 0.374
+      },
+      "running_accuracy": 0.6308
+    },
+    {
+      "match_id": 66,
+      "date": "2026-06-26",
+      "stage": "Group Stage",
+      "home": "Senegal",
+      "away": "Iraq",
+      "home_score": 5,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.465,
+        "D": 0.283,
+        "A": 0.252
+      },
+      "running_accuracy": 0.6364
+    },
+    {
+      "match_id": 67,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "Jordan",
+      "away": "Argentina",
+      "home_score": 1,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.11,
+        "D": 0.244,
+        "A": 0.646
+      },
+      "running_accuracy": 0.6418
+    },
+    {
+      "match_id": 68,
+      "date": "2026-06-27",
+      "stage": "Group Stage",
+      "home": "Algeria",
+      "away": "Austria",
+      "home_score": 3,
+      "away_score": 3,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.375,
+        "D": 0.28,
+        "A": 0.345
+      },
+      "running_accuracy": 0.6324
+    },
+    {
+      "match_id": 69,
+      "date": "2026-06-28",
+      "stage": "Group Stage",
+      "home": "Colombia",
+      "away": "Portugal",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.454,
+        "D": 0.268,
+        "A": 0.278
+      },
+      "running_accuracy": 0.6232
+    },
+    {
+      "match_id": 70,
+      "date": "2026-06-28",
+      "stage": "Group Stage",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "home_score": 3,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "H",
+      "correct": false,
+      "probs": {
+        "H": 0.247,
+        "D": 0.283,
+        "A": 0.471
+      },
+      "running_accuracy": 0.6143
+    },
+    {
+      "match_id": 71,
+      "date": "2026-06-28",
+      "stage": "Group Stage",
+      "home": "Panama",
+      "away": "England",
+      "home_score": 0,
+      "away_score": 2,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.111,
+        "D": 0.25,
+        "A": 0.638
+      },
+      "running_accuracy": 0.6197
+    },
+    {
+      "match_id": 72,
+      "date": "2026-06-28",
+      "stage": "Group Stage",
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.554,
+        "D": 0.271,
+        "A": 0.175
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 73,
+      "date": "2026-06-29",
+      "stage": "Round of 32",
+      "home": "South Africa",
+      "away": "Canada",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.203,
+        "D": 0.263,
+        "A": 0.534
+      },
+      "running_accuracy": 0.6301
+    },
+    {
+      "match_id": 74,
+      "date": "2026-06-29",
+      "stage": "Round of 32",
+      "home": "Brazil",
+      "away": "Japan",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.479,
+        "D": 0.269,
+        "A": 0.253
+      },
+      "running_accuracy": 0.6351
+    },
+    {
+      "match_id": 75,
+      "date": "2026-06-30",
+      "stage": "Round of 32",
+      "home": "Germany",
+      "away": "Paraguay",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.584,
+        "D": 0.261,
+        "A": 0.156
+      },
+      "running_accuracy": 0.6267
+    },
+    {
+      "match_id": 76,
+      "date": "2026-06-30",
+      "stage": "Round of 32",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.51,
+        "D": 0.267,
+        "A": 0.222
+      },
+      "running_accuracy": 0.6184
+    },
+    {
+      "match_id": 77,
+      "date": "2026-06-30",
+      "stage": "Round of 32",
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "A",
+      "correct": false,
+      "probs": {
+        "H": 0.383,
+        "D": 0.279,
+        "A": 0.337
+      },
+      "running_accuracy": 0.6104
+    },
+    {
+      "match_id": 78,
+      "date": "2026-07-01",
+      "stage": "Round of 32",
+      "home": "France",
+      "away": "Sweden",
+      "home_score": 3,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.631,
+        "D": 0.249,
+        "A": 0.12
+      },
+      "running_accuracy": 0.6154
+    },
+    {
+      "match_id": 79,
+      "date": "2026-07-01",
+      "stage": "Round of 32",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.385,
+        "D": 0.275,
+        "A": 0.34
+      },
+      "running_accuracy": 0.6203
+    },
+    {
+      "match_id": 80,
+      "date": "2026-07-01",
+      "stage": "Round of 32",
+      "home": "England",
+      "away": "Congo DR",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.596,
+        "D": 0.262,
+        "A": 0.142
+      },
+      "running_accuracy": 0.625
+    },
+    {
+      "match_id": 81,
+      "date": "2026-07-02",
+      "stage": "Round of 32",
+      "home": "Belgium",
+      "away": "Senegal",
+      "home_score": 3,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.395,
+        "D": 0.276,
+        "A": 0.329
+      },
+      "running_accuracy": 0.6296
+    },
+    {
+      "match_id": 82,
+      "date": "2026-07-02",
+      "stage": "Round of 32",
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.553,
+        "D": 0.265,
+        "A": 0.182
+      },
+      "running_accuracy": 0.6341
+    },
+    {
+      "match_id": 83,
+      "date": "2026-07-03",
+      "stage": "Round of 32",
+      "home": "Spain",
+      "away": "Austria",
+      "home_score": 3,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.533,
+        "D": 0.27,
+        "A": 0.197
+      },
+      "running_accuracy": 0.6386
+    },
+    {
+      "match_id": 84,
+      "date": "2026-07-03",
+      "stage": "Round of 32",
+      "home": "Portugal",
+      "away": "Croatia",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.386,
+        "D": 0.28,
+        "A": 0.334
+      },
+      "running_accuracy": 0.6429
+    },
+    {
+      "match_id": 85,
+      "date": "2026-07-03",
+      "stage": "Round of 32",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.476,
+        "D": 0.275,
+        "A": 0.25
+      },
+      "running_accuracy": 0.6471
+    },
+    {
+      "match_id": 86,
+      "date": "2026-07-04",
+      "stage": "Round of 32",
+      "home": "Australia",
+      "away": "Egypt",
+      "home_score": 1,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.337,
+        "D": 0.277,
+        "A": 0.386
+      },
+      "running_accuracy": 0.6395
+    },
+    {
+      "match_id": 87,
+      "date": "2026-07-04",
+      "stage": "Round of 32",
+      "home": "Argentina",
+      "away": "Cabo Verde",
+      "home_score": 3,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.662,
+        "D": 0.25,
+        "A": 0.089
+      },
+      "running_accuracy": 0.6437
+    },
+    {
+      "match_id": 88,
+      "date": "2026-07-04",
+      "stage": "Round of 32",
+      "home": "Colombia",
+      "away": "Ghana",
+      "home_score": 1,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.536,
+        "D": 0.271,
+        "A": 0.193
+      },
+      "running_accuracy": 0.6477
+    },
+    {
+      "match_id": 89,
+      "date": "2026-07-04",
+      "stage": "Round of 16",
+      "home": "Paraguay",
+      "away": "France",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.16,
+        "D": 0.257,
+        "A": 0.583
+      },
+      "running_accuracy": 0.6517
+    },
+    {
+      "match_id": 90,
+      "date": "2026-07-04",
+      "stage": "Round of 16",
+      "home": "Canada",
+      "away": "Morocco",
+      "home_score": 0,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.291,
+        "D": 0.273,
+        "A": 0.436
+      },
+      "running_accuracy": 0.6556
+    },
+    {
+      "match_id": 91,
+      "date": "2026-07-05",
+      "stage": "Round of 16",
+      "home": "Brazil",
+      "away": "Norway",
+      "home_score": 1,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "A",
+      "correct": false,
+      "probs": {
+        "H": 0.579,
+        "D": 0.263,
+        "A": 0.158
+      },
+      "running_accuracy": 0.6484
+    },
+    {
+      "match_id": 92,
+      "date": "2026-07-06",
+      "stage": "Round of 16",
+      "home": "Mexico",
+      "away": "England",
+      "home_score": 2,
+      "away_score": 3,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.303,
+        "D": 0.273,
+        "A": 0.424
+      },
+      "running_accuracy": 0.6522
+    },
+    {
+      "match_id": 93,
+      "date": "2026-07-06",
+      "stage": "Round of 16",
+      "home": "Portugal",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 1,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.32,
+        "D": 0.273,
+        "A": 0.408
+      },
+      "running_accuracy": 0.6559
+    },
+    {
+      "match_id": 94,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "USA",
+      "away": "Belgium",
+      "home_score": 1,
+      "away_score": 4,
+      "predicted": "H",
+      "actual": "A",
+      "correct": false,
+      "probs": {
+        "H": 0.377,
+        "D": 0.274,
+        "A": 0.349
+      },
+      "running_accuracy": 0.6489
+    },
+    {
+      "match_id": 95,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "Argentina",
+      "away": "Egypt",
+      "home_score": 3,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.658,
+        "D": 0.249,
+        "A": 0.093
+      },
+      "running_accuracy": 0.6526
+    },
+    {
+      "match_id": 96,
+      "date": "2026-07-07",
+      "stage": "Round of 16",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "home_score": 0,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "D",
+      "correct": false,
+      "probs": {
+        "H": 0.364,
+        "D": 0.276,
+        "A": 0.36
+      },
+      "running_accuracy": 0.6458
+    },
+    {
+      "match_id": 97,
+      "date": "2026-07-09",
+      "stage": "Quarter-finals",
+      "home": "France",
+      "away": "Morocco",
+      "home_score": 2,
+      "away_score": 0,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.58,
+        "D": 0.259,
+        "A": 0.161
+      },
+      "running_accuracy": 0.6495
+    }
+  ]
+}

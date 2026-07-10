@@ -1,0 +1,242 @@
+{
+  "Mexico": {
+    "winrate5": 0.8,
+    "goals_for5": 2.0,
+    "goals_against5": 0.6
+  },
+  "South Africa": {
+    "winrate5": 0.25,
+    "goals_for5": 0.5,
+    "goals_against5": 1.0
+  },
+  "South Korea": {
+    "winrate5": 0.333333,
+    "goals_for5": 0.666667,
+    "goals_against5": 1.0
+  },
+  "Czechia": {
+    "winrate5": 0.0,
+    "goals_for5": 0.666667,
+    "goals_against5": 2.0
+  },
+  "Canada": {
+    "winrate5": 0.4,
+    "goals_for5": 1.8,
+    "goals_against5": 1.2
+  },
+  "Bosnia and Herzegovina": {
+    "winrate5": 0.25,
+    "goals_for5": 1.25,
+    "goals_against5": 2.0
+  },
+  "Qatar": {
+    "winrate5": 0.0,
+    "goals_for5": 0.666667,
+    "goals_against5": 3.333333
+  },
+  "Switzerland": {
+    "winrate5": 0.6,
+    "goals_for5": 1.8,
+    "goals_against5": 0.6
+  },
+  "Brazil": {
+    "winrate5": 0.6,
+    "goals_for5": 2.0,
+    "goals_against5": 0.8
+  },
+  "Morocco": {
+    "winrate5": 0.6,
+    "goals_for5": 1.8,
+    "goals_against5": 1.0
+  },
+  "Haiti": {
+    "winrate5": 0.0,
+    "goals_for5": 0.666667,
+    "goals_against5": 2.666667
+  },
+  "Scotland": {
+    "winrate5": 0.333333,
+    "goals_for5": 0.333333,
+    "goals_against5": 1.333333
+  },
+  "USA": {
+    "winrate5": 0.6,
+    "goals_for5": 2.2,
+    "goals_against5": 1.6
+  },
+  "Paraguay": {
+    "winrate5": 0.2,
+    "goals_for5": 0.6,
+    "goals_against5": 1.2
+  },
+  "Australia": {
+    "winrate5": 0.25,
+    "goals_for5": 0.75,
+    "goals_against5": 0.75
+  },
+  "Türkiye": {
+    "winrate5": 0.333333,
+    "goals_for5": 1.0,
+    "goals_against5": 1.666667
+  },
+  "Germany": {
+    "winrate5": 0.5,
+    "goals_for5": 2.75,
+    "goals_against5": 1.25
+  },
+  "Curaçao": {
+    "winrate5": 0.0,
+    "goals_for5": 0.333333,
+    "goals_against5": 3.0
+  },
+  "Côte d'Ivoire": {
+    "winrate5": 0.5,
+    "goals_for5": 1.25,
+    "goals_against5": 1.0
+  },
+  "Ecuador": {
+    "winrate5": 0.25,
+    "goals_for5": 0.5,
+    "goals_against5": 1.0
+  },
+  "Netherlands": {
+    "winrate5": 0.5,
+    "goals_for5": 2.75,
+    "goals_against5": 1.25
+  },
+  "Japan": {
+    "winrate5": 0.25,
+    "goals_for5": 2.0,
+    "goals_against5": 1.25
+  },
+  "Sweden": {
+    "winrate5": 0.25,
+    "goals_for5": 1.75,
+    "goals_against5": 2.5
+  },
+  "Tunisia": {
+    "winrate5": 0.0,
+    "goals_for5": 0.666667,
+    "goals_against5": 4.0
+  },
+  "Belgium": {
+    "winrate5": 0.6,
+    "goals_for5": 2.6,
+    "goals_against5": 1.0
+  },
+  "Egypt": {
+    "winrate5": 0.2,
+    "goals_for5": 1.6,
+    "goals_against5": 1.4
+  },
+  "IR Iran": {
+    "winrate5": 0.0,
+    "goals_for5": 1.0,
+    "goals_against5": 1.0
+  },
+  "New Zealand": {
+    "winrate5": 0.0,
+    "goals_for5": 1.333333,
+    "goals_against5": 3.333333
+  },
+  "Spain": {
+    "winrate5": 0.8,
+    "goals_for5": 1.8,
+    "goals_against5": 0.0
+  },
+  "Cabo Verde": {
+    "winrate5": 0.0,
+    "goals_for5": 1.0,
+    "goals_against5": 1.25
+  },
+  "Saudi Arabia": {
+    "winrate5": 0.0,
+    "goals_for5": 0.333333,
+    "goals_against5": 1.666667
+  },
+  "Uruguay": {
+    "winrate5": 0.0,
+    "goals_for5": 1.0,
+    "goals_against5": 1.333333
+  },
+  "France": {
+    "winrate5": 1.0,
+    "goals_for5": 2.6,
+    "goals_against5": 0.2
+  },
+  "Senegal": {
+    "winrate5": 0.25,
+    "goals_for5": 2.5,
+    "goals_against5": 2.25
+  },
+  "Iraq": {
+    "winrate5": 0.0,
+    "goals_for5": 0.333333,
+    "goals_against5": 4.0
+  },
+  "Norway": {
+    "winrate5": 0.8,
+    "goals_for5": 2.4,
+    "goals_against5": 1.8
+  },
+  "Argentina": {
+    "winrate5": 1.0,
+    "goals_for5": 2.8,
+    "goals_against5": 1.0
+  },
+  "Algeria": {
+    "winrate5": 0.25,
+    "goals_for5": 1.25,
+    "goals_against5": 2.25
+  },
+  "Austria": {
+    "winrate5": 0.25,
+    "goals_for5": 1.5,
+    "goals_against5": 2.25
+  },
+  "Jordan": {
+    "winrate5": 0.0,
+    "goals_for5": 1.0,
+    "goals_against5": 2.666667
+  },
+  "Portugal": {
+    "winrate5": 0.4,
+    "goals_for5": 1.6,
+    "goals_against5": 0.6
+  },
+  "Congo DR": {
+    "winrate5": 0.25,
+    "goals_for5": 1.25,
+    "goals_against5": 1.25
+  },
+  "Uzbekistan": {
+    "winrate5": 0.0,
+    "goals_for5": 0.666667,
+    "goals_against5": 3.666667
+  },
+  "Colombia": {
+    "winrate5": 0.6,
+    "goals_for5": 1.0,
+    "goals_against5": 0.2
+  },
+  "England": {
+    "winrate5": 0.8,
+    "goals_for5": 2.2,
+    "goals_against5": 1.0
+  },
+  "Croatia": {
+    "winrate5": 0.5,
+    "goals_for5": 1.5,
+    "goals_against5": 1.75
+  },
+  "Ghana": {
+    "winrate5": 0.25,
+    "goals_for5": 0.5,
+    "goals_against5": 0.75
+  },
+  "Panama": {
+    "winrate5": 0.0,
+    "goals_for5": 0.0,
+    "goals_against5": 1.333333
+  }
+}

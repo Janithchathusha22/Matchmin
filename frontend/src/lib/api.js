@@ -1,15 +1,34 @@
+import { getStaticFallback, predictStaticFallback } from './fallback'
+
 // In production set VITE_API_URL to the deployed backend origin
 // (e.g. https://matchmind-api.onrender.com). Empty locally so Vite's
-// dev proxy handles /api → http://localhost:8000.
+// dev proxy handles /api -> http://localhost:8000.
 const API_BASE = import.meta.env.VITE_API_URL || ''
+const API_TIMEOUT_MS = Number(import.meta.env.VITE_API_TIMEOUT_MS || 5500)
 
 const cache = new Map()
 
+async function fetchApi(path, options = {}) {
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS)
+  try {
+    return await fetch(API_BASE + path, { ...options, signal: controller.signal })
+  } finally {
+    clearTimeout(timeout)
+  }
+}
+
 async function get(path) {
   if (cache.has(path)) return cache.get(path)
-  const res = await fetch(API_BASE + path)
-  if (!res.ok) throw new Error(`${path} → ${res.status}`)
-  const data = await res.json()
+  let data
+  try {
+    const res = await fetchApi(path)
+    if (!res.ok) throw new Error(`${path} -> ${res.status}`)
+    data = await res.json()
+  } catch (error) {
+    console.warn(`Using static fallback for ${path}`, error)
+    data = await getStaticFallback(path)
+  }
   cache.set(path, data)
   return data
 }
@@ -25,13 +44,22 @@ export const api = {
   metrics: () => get('/api/model/metrics'),
   accuracy: () => get('/api/accuracy'),
   predict: async (home, away, knockout) => {
-    const res = await fetch(API_BASE + '/api/predict', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ home, away, knockout }),
-    })
-    if (!res.ok) throw new Error((await res.json()).detail || 'prediction failed')
-    return res.json()
+    try {
+      const res = await fetchApi('/api/predict', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ home, away, knockout }),
+      })
+      if (!res.ok) {
+        let detail = 'prediction failed'
+        try { detail = (await res.json()).detail || detail } catch { detail = `${res.status}` }
+        throw new Error(detail)
+      }
+      return res.json()
+    } catch (error) {
+      console.warn('Using static prediction fallback', error)
+      return predictStaticFallback(home, away, knockout)
+    }
   },
 }
 

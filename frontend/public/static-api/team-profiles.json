@@ -1,0 +1,2462 @@
+{
+  "Mexico": {
+    "name": "Mexico",
+    "code": "MEX",
+    "group": "A",
+    "confederation": "CONCACAF",
+    "elo": 1810,
+    "fifa_rank": 14,
+    "manager": "Javier Aguirre",
+    "matches": [
+      {
+        "match_id": 1,
+        "date": "2026-06-11",
+        "stage": "Group Stage",
+        "opponent": "South Africa",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 25,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "South Korea",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 49,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Czechia",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 79,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "Ecuador",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 92,
+        "date": "2026-07-06",
+        "stage": "Round of 16",
+        "opponent": "England",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "South Africa": {
+    "name": "South Africa",
+    "code": "RSA",
+    "group": "A",
+    "confederation": "CAF",
+    "elo": 1620,
+    "fifa_rank": 60,
+    "manager": "Hugo Broos",
+    "matches": [
+      {
+        "match_id": 1,
+        "date": "2026-06-11",
+        "stage": "Group Stage",
+        "opponent": "Mexico",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 26,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Czechia",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 50,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "South Korea",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 73,
+        "date": "2026-06-29",
+        "stage": "Round of 32",
+        "opponent": "Canada",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "South Korea": {
+    "name": "South Korea",
+    "code": "KOR",
+    "group": "A",
+    "confederation": "AFC",
+    "elo": 1800,
+    "fifa_rank": 22,
+    "manager": "Hong Myung-bo",
+    "matches": [
+      {
+        "match_id": 2,
+        "date": "2026-06-11",
+        "stage": "Group Stage",
+        "opponent": "Czechia",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 25,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Mexico",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 50,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "South Africa",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Czechia": {
+    "name": "Czechia",
+    "code": "CZE",
+    "group": "A",
+    "confederation": "UEFA",
+    "elo": 1740,
+    "fifa_rank": 40,
+    "manager": "Miroslav Koubek",
+    "matches": [
+      {
+        "match_id": 2,
+        "date": "2026-06-11",
+        "stage": "Group Stage",
+        "opponent": "South Korea",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 26,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "South Africa",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 49,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Mexico",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Canada": {
+    "name": "Canada",
+    "code": "CAN",
+    "group": "B",
+    "confederation": "CONCACAF",
+    "elo": 1795,
+    "fifa_rank": 33,
+    "manager": "Jesse Marsch",
+    "matches": [
+      {
+        "match_id": 3,
+        "date": "2026-06-12",
+        "stage": "Group Stage",
+        "opponent": "Bosnia and Herzegovina",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 27,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Qatar",
+        "gf": 6,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 51,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Switzerland",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 73,
+        "date": "2026-06-29",
+        "stage": "Round of 32",
+        "opponent": "South Africa",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 90,
+        "date": "2026-07-04",
+        "stage": "Round of 16",
+        "opponent": "Morocco",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Bosnia and Herzegovina": {
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "group": "B",
+    "confederation": "UEFA",
+    "elo": 1645,
+    "fifa_rank": 64,
+    "manager": "Sergej Barbarez",
+    "matches": [
+      {
+        "match_id": 3,
+        "date": "2026-06-12",
+        "stage": "Group Stage",
+        "opponent": "Canada",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 28,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Switzerland",
+        "gf": 1,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 52,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Qatar",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 82,
+        "date": "2026-07-02",
+        "stage": "Round of 32",
+        "opponent": "USA",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Qatar": {
+    "name": "Qatar",
+    "code": "QAT",
+    "group": "B",
+    "confederation": "AFC",
+    "elo": 1600,
+    "fifa_rank": 56,
+    "manager": "Julen Lopetegui",
+    "matches": [
+      {
+        "match_id": 5,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Switzerland",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 27,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Canada",
+        "gf": 0,
+        "ga": 6,
+        "result": "L"
+      },
+      {
+        "match_id": 52,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Bosnia and Herzegovina",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Switzerland": {
+    "name": "Switzerland",
+    "code": "SUI",
+    "group": "B",
+    "confederation": "UEFA",
+    "elo": 1860,
+    "fifa_rank": 19,
+    "manager": "Murat Yakin",
+    "matches": [
+      {
+        "match_id": 5,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Qatar",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 28,
+        "date": "2026-06-18",
+        "stage": "Group Stage",
+        "opponent": "Bosnia and Herzegovina",
+        "gf": 4,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 51,
+        "date": "2026-06-24",
+        "stage": "Group Stage",
+        "opponent": "Canada",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 85,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Algeria",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 96,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "Colombia",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/SUI.jpeg",
+    "odds": {
+      "team": "Switzerland",
+      "reach_qf": 1.0,
+      "reach_sf": 0.2267,
+      "reach_final": 0.0813,
+      "champion": 0.0228
+    }
+  },
+  "Brazil": {
+    "name": "Brazil",
+    "code": "BRA",
+    "group": "C",
+    "confederation": "CONMEBOL",
+    "elo": 2030,
+    "fifa_rank": 6,
+    "manager": "Carlo Ancelotti",
+    "matches": [
+      {
+        "match_id": 6,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Morocco",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 29,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Haiti",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 53,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Scotland",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 74,
+        "date": "2026-06-29",
+        "stage": "Round of 32",
+        "opponent": "Japan",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 91,
+        "date": "2026-07-05",
+        "stage": "Round of 16",
+        "opponent": "Norway",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Morocco": {
+    "name": "Morocco",
+    "code": "MAR",
+    "group": "C",
+    "confederation": "CAF",
+    "elo": 1920,
+    "fifa_rank": 7,
+    "manager": "Walid Regragui",
+    "matches": [
+      {
+        "match_id": 6,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Brazil",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 30,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Scotland",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 54,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Haiti",
+        "gf": 4,
+        "ga": 2,
+        "result": "W"
+      },
+      {
+        "match_id": 76,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Netherlands",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 90,
+        "date": "2026-07-04",
+        "stage": "Round of 16",
+        "opponent": "Canada",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 97,
+        "date": "2026-07-09",
+        "stage": "Quarter-finals",
+        "opponent": "France",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Haiti": {
+    "name": "Haiti",
+    "code": "HAI",
+    "group": "C",
+    "confederation": "CONCACAF",
+    "elo": 1530,
+    "fifa_rank": 83,
+    "manager": "Sébastien Migné",
+    "matches": [
+      {
+        "match_id": 7,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Scotland",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 29,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Brazil",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 54,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Morocco",
+        "gf": 2,
+        "ga": 4,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Scotland": {
+    "name": "Scotland",
+    "code": "SCO",
+    "group": "C",
+    "confederation": "UEFA",
+    "elo": 1720,
+    "fifa_rank": 39,
+    "manager": "Steve Clarke",
+    "matches": [
+      {
+        "match_id": 7,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Haiti",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 30,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Morocco",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 53,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Brazil",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "USA": {
+    "name": "USA",
+    "code": "USA",
+    "group": "D",
+    "confederation": "CONCACAF",
+    "elo": 1850,
+    "fifa_rank": 17,
+    "manager": "Mauricio Pochettino",
+    "matches": [
+      {
+        "match_id": 4,
+        "date": "2026-06-12",
+        "stage": "Group Stage",
+        "opponent": "Paraguay",
+        "gf": 4,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 31,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Australia",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 55,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Türkiye",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 82,
+        "date": "2026-07-02",
+        "stage": "Round of 32",
+        "opponent": "Bosnia and Herzegovina",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 94,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "Belgium",
+        "gf": 1,
+        "ga": 4,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Paraguay": {
+    "name": "Paraguay",
+    "code": "PAR",
+    "group": "D",
+    "confederation": "CONMEBOL",
+    "elo": 1725,
+    "fifa_rank": 54,
+    "manager": "Gustavo Alfaro",
+    "matches": [
+      {
+        "match_id": 4,
+        "date": "2026-06-12",
+        "stage": "Group Stage",
+        "opponent": "USA",
+        "gf": 1,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 32,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Türkiye",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 56,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Australia",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 75,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Germany",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 89,
+        "date": "2026-07-04",
+        "stage": "Round of 16",
+        "opponent": "France",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Australia": {
+    "name": "Australia",
+    "code": "AUS",
+    "group": "D",
+    "confederation": "AFC",
+    "elo": 1790,
+    "fifa_rank": 27,
+    "manager": "Tony Popovic",
+    "matches": [
+      {
+        "match_id": 8,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Türkiye",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 31,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "USA",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 56,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "Paraguay",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 86,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Egypt",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Türkiye": {
+    "name": "Türkiye",
+    "code": "TUR",
+    "group": "D",
+    "confederation": "UEFA",
+    "elo": 1780,
+    "fifa_rank": 26,
+    "manager": "Vincenzo Montella",
+    "matches": [
+      {
+        "match_id": 8,
+        "date": "2026-06-13",
+        "stage": "Group Stage",
+        "opponent": "Australia",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 32,
+        "date": "2026-06-19",
+        "stage": "Group Stage",
+        "opponent": "Paraguay",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 55,
+        "date": "2026-06-25",
+        "stage": "Group Stage",
+        "opponent": "USA",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Germany": {
+    "name": "Germany",
+    "code": "GER",
+    "group": "E",
+    "confederation": "UEFA",
+    "elo": 1970,
+    "fifa_rank": 10,
+    "manager": "Julian Nagelsmann",
+    "matches": [
+      {
+        "match_id": 9,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Curaçao",
+        "gf": 7,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 33,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Côte d'Ivoire",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 57,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Ecuador",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 75,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Paraguay",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Curaçao": {
+    "name": "Curaçao",
+    "code": "CUW",
+    "group": "E",
+    "confederation": "CONCACAF",
+    "elo": 1520,
+    "fifa_rank": 82,
+    "manager": "Dick Advocaat",
+    "matches": [
+      {
+        "match_id": 9,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Germany",
+        "gf": 1,
+        "ga": 7,
+        "result": "L"
+      },
+      {
+        "match_id": 34,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Ecuador",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 58,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Côte d'Ivoire",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Côte d'Ivoire": {
+    "name": "Côte d'Ivoire",
+    "code": "CIV",
+    "group": "E",
+    "confederation": "CAF",
+    "elo": 1750,
+    "fifa_rank": 38,
+    "manager": "Emerse Faé",
+    "matches": [
+      {
+        "match_id": 11,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Ecuador",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 33,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Germany",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 58,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Curaçao",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 77,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Norway",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Ecuador": {
+    "name": "Ecuador",
+    "code": "ECU",
+    "group": "E",
+    "confederation": "CONMEBOL",
+    "elo": 1870,
+    "fifa_rank": 23,
+    "manager": "Sebastián Beccacece",
+    "matches": [
+      {
+        "match_id": 11,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Côte d'Ivoire",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 34,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Curaçao",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 57,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Germany",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 79,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "Mexico",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Netherlands": {
+    "name": "Netherlands",
+    "code": "NED",
+    "group": "F",
+    "confederation": "UEFA",
+    "elo": 1980,
+    "fifa_rank": 8,
+    "manager": "Ronald Koeman",
+    "matches": [
+      {
+        "match_id": 10,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Japan",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 35,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Sweden",
+        "gf": 5,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 59,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Tunisia",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 76,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Morocco",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Japan": {
+    "name": "Japan",
+    "code": "JPN",
+    "group": "F",
+    "confederation": "AFC",
+    "elo": 1880,
+    "fifa_rank": 18,
+    "manager": "Hajime Moriyasu",
+    "matches": [
+      {
+        "match_id": 10,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 36,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Tunisia",
+        "gf": 4,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 60,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Sweden",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 74,
+        "date": "2026-06-29",
+        "stage": "Round of 32",
+        "opponent": "Brazil",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Sweden": {
+    "name": "Sweden",
+    "code": "SWE",
+    "group": "F",
+    "confederation": "UEFA",
+    "elo": 1815,
+    "fifa_rank": 25,
+    "manager": "Jon Dahl Tomasson",
+    "matches": [
+      {
+        "match_id": 12,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Tunisia",
+        "gf": 5,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 35,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "gf": 1,
+        "ga": 5,
+        "result": "L"
+      },
+      {
+        "match_id": 60,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Japan",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 78,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "France",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Tunisia": {
+    "name": "Tunisia",
+    "code": "TUN",
+    "group": "F",
+    "confederation": "CAF",
+    "elo": 1710,
+    "fifa_rank": 45,
+    "manager": "Hervé Renard",
+    "matches": [
+      {
+        "match_id": 12,
+        "date": "2026-06-14",
+        "stage": "Group Stage",
+        "opponent": "Sweden",
+        "gf": 1,
+        "ga": 5,
+        "result": "L"
+      },
+      {
+        "match_id": 36,
+        "date": "2026-06-20",
+        "stage": "Group Stage",
+        "opponent": "Japan",
+        "gf": 0,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 59,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Belgium": {
+    "name": "Belgium",
+    "code": "BEL",
+    "group": "G",
+    "confederation": "UEFA",
+    "elo": 1950,
+    "fifa_rank": 9,
+    "manager": "Domenico Tedesco",
+    "matches": [
+      {
+        "match_id": 14,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Egypt",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 37,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "IR Iran",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 61,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "New Zealand",
+        "gf": 5,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 81,
+        "date": "2026-07-02",
+        "stage": "Round of 32",
+        "opponent": "Senegal",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      },
+      {
+        "match_id": 94,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "USA",
+        "gf": 4,
+        "ga": 1,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/BEL.jpeg",
+    "odds": {
+      "team": "Belgium",
+      "reach_qf": 1.0,
+      "reach_sf": 0.3378,
+      "reach_final": 0.101,
+      "champion": 0.0535
+    }
+  },
+  "Egypt": {
+    "name": "Egypt",
+    "code": "EGY",
+    "group": "G",
+    "confederation": "CAF",
+    "elo": 1730,
+    "fifa_rank": 36,
+    "manager": "Hossam Hassan",
+    "matches": [
+      {
+        "match_id": 14,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Belgium",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 38,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "New Zealand",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 62,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "IR Iran",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 86,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Australia",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 95,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "Argentina",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "IR Iran": {
+    "name": "IR Iran",
+    "code": "IRN",
+    "group": "G",
+    "confederation": "AFC",
+    "elo": 1820,
+    "fifa_rank": 20,
+    "manager": "Amir Ghalenoei",
+    "matches": [
+      {
+        "match_id": 16,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "New Zealand",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 37,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Belgium",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 62,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Egypt",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "New Zealand": {
+    "name": "New Zealand",
+    "code": "NZL",
+    "group": "G",
+    "confederation": "OFC",
+    "elo": 1510,
+    "fifa_rank": 85,
+    "manager": "Darren Bazeley",
+    "matches": [
+      {
+        "match_id": 16,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "IR Iran",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 38,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Egypt",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 61,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Belgium",
+        "gf": 1,
+        "ga": 5,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Spain": {
+    "name": "Spain",
+    "code": "ESP",
+    "group": "H",
+    "confederation": "UEFA",
+    "elo": 2120,
+    "fifa_rank": 2,
+    "manager": "Luis de la Fuente",
+    "matches": [
+      {
+        "match_id": 13,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Cabo Verde",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 39,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Saudi Arabia",
+        "gf": 4,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 63,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Uruguay",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 83,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Austria",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 93,
+        "date": "2026-07-06",
+        "stage": "Round of 16",
+        "opponent": "Portugal",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/ESP.jpeg",
+    "odds": {
+      "team": "Spain",
+      "reach_qf": 1.0,
+      "reach_sf": 0.6622,
+      "reach_final": 0.26,
+      "champion": 0.1643
+    }
+  },
+  "Cabo Verde": {
+    "name": "Cabo Verde",
+    "code": "CPV",
+    "group": "H",
+    "confederation": "CAF",
+    "elo": 1640,
+    "fifa_rank": 67,
+    "manager": "Bubista",
+    "matches": [
+      {
+        "match_id": 13,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 40,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Uruguay",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 64,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Saudi Arabia",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 87,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Argentina",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Saudi Arabia": {
+    "name": "Saudi Arabia",
+    "code": "KSA",
+    "group": "H",
+    "confederation": "AFC",
+    "elo": 1660,
+    "fifa_rank": 58,
+    "manager": "Georgios Donis",
+    "matches": [
+      {
+        "match_id": 15,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Uruguay",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 39,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 64,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Cabo Verde",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Uruguay": {
+    "name": "Uruguay",
+    "code": "URU",
+    "group": "H",
+    "confederation": "CONMEBOL",
+    "elo": 1960,
+    "fifa_rank": 16,
+    "manager": "Marcelo Bielsa",
+    "matches": [
+      {
+        "match_id": 15,
+        "date": "2026-06-15",
+        "stage": "Group Stage",
+        "opponent": "Saudi Arabia",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 40,
+        "date": "2026-06-21",
+        "stage": "Group Stage",
+        "opponent": "Cabo Verde",
+        "gf": 2,
+        "ga": 2,
+        "result": "D"
+      },
+      {
+        "match_id": 63,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "France": {
+    "name": "France",
+    "code": "FRA",
+    "group": "I",
+    "confederation": "UEFA",
+    "elo": 2100,
+    "fifa_rank": 3,
+    "manager": "Didier Deschamps",
+    "matches": [
+      {
+        "match_id": 17,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Senegal",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 41,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Iraq",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 65,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Norway",
+        "gf": 4,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 78,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "Sweden",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 89,
+        "date": "2026-07-04",
+        "stage": "Round of 16",
+        "opponent": "Paraguay",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 97,
+        "date": "2026-07-09",
+        "stage": "Quarter-finals",
+        "opponent": "Morocco",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/FRA.jpeg",
+    "odds": {
+      "team": "France",
+      "reach_qf": 1.0,
+      "reach_sf": 1.0,
+      "reach_final": 0.639,
+      "champion": 0.4267
+    }
+  },
+  "Senegal": {
+    "name": "Senegal",
+    "code": "SEN",
+    "group": "I",
+    "confederation": "CAF",
+    "elo": 1840,
+    "fifa_rank": 15,
+    "manager": "Pape Thiaw",
+    "matches": [
+      {
+        "match_id": 17,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "France",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 42,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Norway",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 66,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Iraq",
+        "gf": 5,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 81,
+        "date": "2026-07-02",
+        "stage": "Round of 32",
+        "opponent": "Belgium",
+        "gf": 2,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Iraq": {
+    "name": "Iraq",
+    "code": "IRQ",
+    "group": "I",
+    "confederation": "AFC",
+    "elo": 1630,
+    "fifa_rank": 55,
+    "manager": "Graham Arnold",
+    "matches": [
+      {
+        "match_id": 18,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Norway",
+        "gf": 1,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 41,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "France",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 66,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "Senegal",
+        "gf": 0,
+        "ga": 5,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Norway": {
+    "name": "Norway",
+    "code": "NOR",
+    "group": "I",
+    "confederation": "UEFA",
+    "elo": 1775,
+    "fifa_rank": 44,
+    "manager": "Ståle Solbakken",
+    "matches": [
+      {
+        "match_id": 18,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Iraq",
+        "gf": 4,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 42,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Senegal",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      },
+      {
+        "match_id": 65,
+        "date": "2026-06-26",
+        "stage": "Group Stage",
+        "opponent": "France",
+        "gf": 1,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 77,
+        "date": "2026-06-30",
+        "stage": "Round of 32",
+        "opponent": "Côte d'Ivoire",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 91,
+        "date": "2026-07-05",
+        "stage": "Round of 16",
+        "opponent": "Brazil",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/NOR.jpeg",
+    "odds": {
+      "team": "Norway",
+      "reach_qf": 1.0,
+      "reach_sf": 0.4608,
+      "reach_final": 0.2059,
+      "champion": 0.0492
+    }
+  },
+  "Argentina": {
+    "name": "Argentina",
+    "code": "ARG",
+    "group": "J",
+    "confederation": "CONMEBOL",
+    "elo": 2150,
+    "fifa_rank": 1,
+    "manager": "Lionel Scaloni",
+    "matches": [
+      {
+        "match_id": 19,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Algeria",
+        "gf": 3,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 43,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Austria",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 67,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Jordan",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 87,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Cabo Verde",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      },
+      {
+        "match_id": 95,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "Egypt",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/ARG.jpeg",
+    "odds": {
+      "team": "Argentina",
+      "reach_qf": 1.0,
+      "reach_sf": 0.7733,
+      "reach_final": 0.3906,
+      "champion": 0.1636
+    }
+  },
+  "Algeria": {
+    "name": "Algeria",
+    "code": "ALG",
+    "group": "J",
+    "confederation": "CAF",
+    "elo": 1760,
+    "fifa_rank": 28,
+    "manager": "Vladimir Petković",
+    "matches": [
+      {
+        "match_id": 19,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 44,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Jordan",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 68,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Austria",
+        "gf": 3,
+        "ga": 3,
+        "result": "D"
+      },
+      {
+        "match_id": 85,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Switzerland",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Austria": {
+    "name": "Austria",
+    "code": "AUT",
+    "group": "J",
+    "confederation": "UEFA",
+    "elo": 1830,
+    "fifa_rank": 24,
+    "manager": "Ralf Rangnick",
+    "matches": [
+      {
+        "match_id": 20,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Jordan",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 43,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 68,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Algeria",
+        "gf": 3,
+        "ga": 3,
+        "result": "D"
+      },
+      {
+        "match_id": 83,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Jordan": {
+    "name": "Jordan",
+    "code": "JOR",
+    "group": "J",
+    "confederation": "AFC",
+    "elo": 1610,
+    "fifa_rank": 63,
+    "manager": "Jamal Sellami",
+    "matches": [
+      {
+        "match_id": 20,
+        "date": "2026-06-16",
+        "stage": "Group Stage",
+        "opponent": "Austria",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 44,
+        "date": "2026-06-22",
+        "stage": "Group Stage",
+        "opponent": "Algeria",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 67,
+        "date": "2026-06-27",
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Portugal": {
+    "name": "Portugal",
+    "code": "POR",
+    "group": "K",
+    "confederation": "UEFA",
+    "elo": 2010,
+    "fifa_rank": 5,
+    "manager": "Roberto Martínez",
+    "matches": [
+      {
+        "match_id": 21,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Congo DR",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 45,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Uzbekistan",
+        "gf": 5,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 69,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Colombia",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 84,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Croatia",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 93,
+        "date": "2026-07-06",
+        "stage": "Round of 16",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Congo DR": {
+    "name": "Congo DR",
+    "code": "COD",
+    "group": "K",
+    "confederation": "CAF",
+    "elo": 1670,
+    "fifa_rank": 61,
+    "manager": "Sébastien Desabre",
+    "matches": [
+      {
+        "match_id": 21,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Portugal",
+        "gf": 1,
+        "ga": 1,
+        "result": "D"
+      },
+      {
+        "match_id": 46,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Colombia",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 70,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Uzbekistan",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 80,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "England",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Uzbekistan": {
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "group": "K",
+    "confederation": "AFC",
+    "elo": 1650,
+    "fifa_rank": 50,
+    "manager": "Fabio Cannavaro",
+    "matches": [
+      {
+        "match_id": 24,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Colombia",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      },
+      {
+        "match_id": 45,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Portugal",
+        "gf": 0,
+        "ga": 5,
+        "result": "L"
+      },
+      {
+        "match_id": 70,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Congo DR",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Colombia": {
+    "name": "Colombia",
+    "code": "COL",
+    "group": "K",
+    "confederation": "CONMEBOL",
+    "elo": 1990,
+    "fifa_rank": 13,
+    "manager": "Néstor Lorenzo",
+    "matches": [
+      {
+        "match_id": 24,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Uzbekistan",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 46,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Congo DR",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 69,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Portugal",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 88,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Ghana",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 96,
+        "date": "2026-07-07",
+        "stage": "Round of 16",
+        "opponent": "Switzerland",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "England": {
+    "name": "England",
+    "code": "ENG",
+    "group": "L",
+    "confederation": "UEFA",
+    "elo": 2050,
+    "fifa_rank": 4,
+    "manager": "Thomas Tuchel",
+    "matches": [
+      {
+        "match_id": 22,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Croatia",
+        "gf": 4,
+        "ga": 2,
+        "result": "W"
+      },
+      {
+        "match_id": 47,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Ghana",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 71,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Panama",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 80,
+        "date": "2026-07-01",
+        "stage": "Round of 32",
+        "opponent": "Congo DR",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 92,
+        "date": "2026-07-06",
+        "stage": "Round of 16",
+        "opponent": "Mexico",
+        "gf": 3,
+        "ga": 2,
+        "result": "W"
+      }
+    ],
+    "alive": true,
+    "image": "/teams/ENG.jpeg",
+    "odds": {
+      "team": "England",
+      "reach_qf": 1.0,
+      "reach_sf": 0.5392,
+      "reach_final": 0.3222,
+      "champion": 0.1198
+    }
+  },
+  "Croatia": {
+    "name": "Croatia",
+    "code": "CRO",
+    "group": "L",
+    "confederation": "UEFA",
+    "elo": 1940,
+    "fifa_rank": 11,
+    "manager": "Zlatko Dalić",
+    "matches": [
+      {
+        "match_id": 22,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "England",
+        "gf": 2,
+        "ga": 4,
+        "result": "L"
+      },
+      {
+        "match_id": 48,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Panama",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 72,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Ghana",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 84,
+        "date": "2026-07-03",
+        "stage": "Round of 32",
+        "opponent": "Portugal",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Ghana": {
+    "name": "Ghana",
+    "code": "GHA",
+    "group": "L",
+    "confederation": "CAF",
+    "elo": 1690,
+    "fifa_rank": 49,
+    "manager": "Carlos Queiroz",
+    "matches": [
+      {
+        "match_id": 23,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Panama",
+        "gf": 1,
+        "ga": 0,
+        "result": "W"
+      },
+      {
+        "match_id": 47,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "England",
+        "gf": 0,
+        "ga": 0,
+        "result": "D"
+      },
+      {
+        "match_id": 72,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "Croatia",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
+      },
+      {
+        "match_id": 88,
+        "date": "2026-07-04",
+        "stage": "Round of 32",
+        "opponent": "Colombia",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  },
+  "Panama": {
+    "name": "Panama",
+    "code": "PAN",
+    "group": "L",
+    "confederation": "CONCACAF",
+    "elo": 1680,
+    "fifa_rank": 34,
+    "manager": "Thomas Christiansen",
+    "matches": [
+      {
+        "match_id": 23,
+        "date": "2026-06-17",
+        "stage": "Group Stage",
+        "opponent": "Ghana",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 48,
+        "date": "2026-06-23",
+        "stage": "Group Stage",
+        "opponent": "Croatia",
+        "gf": 0,
+        "ga": 1,
+        "result": "L"
+      },
+      {
+        "match_id": 71,
+        "date": "2026-06-28",
+        "stage": "Group Stage",
+        "opponent": "England",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
+      }
+    ],
+    "alive": false,
+    "image": null,
+    "odds": null
+  }
+}
