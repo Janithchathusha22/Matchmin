@@ -1,18 +1,5 @@
 [
   {
-    "team_id": 33,
-    "name": "France",
-    "code": "FRA",
-    "group": "I",
-    "confederation": "UEFA",
-    "fifa_rank": 3,
-    "elo": 2100,
-    "manager": "Didier Deschamps",
-    "alive": true,
-    "image": "/teams/FRA.jpeg",
-    "champion_prob": 0.4267
-  },
-  {
     "team_id": 29,
     "name": "Spain",
     "code": "ESP",
@@ -23,7 +10,21 @@
     "manager": "Luis de la Fuente",
     "alive": true,
     "image": "/teams/ESP.jpeg",
-    "champion_prob": 0.1643
+    "champion_prob": 0.6104,
+    "archived_champion_prob": 0.1643,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Finalist",
+      "result_label": "FINALIST",
+      "stage": "Semi-finals",
+      "match_id": 101,
+      "opponent": "France",
+      "goals_for": 2,
+      "goals_against": 0,
+      "won": true,
+      "result_text": "Beat France 2–0"
+    }
   },
   {
     "team_id": 37,
@@ -36,59 +37,21 @@
     "manager": "Lionel Scaloni",
     "alive": true,
     "image": "/teams/ARG.jpeg",
-    "champion_prob": 0.1636
-  },
-  {
-    "team_id": 45,
-    "name": "England",
-    "code": "ENG",
-    "group": "L",
-    "confederation": "UEFA",
-    "fifa_rank": 4,
-    "elo": 2050,
-    "manager": "Thomas Tuchel",
-    "alive": true,
-    "image": "/teams/ENG.jpeg",
-    "champion_prob": 0.1198
-  },
-  {
-    "team_id": 25,
-    "name": "Belgium",
-    "code": "BEL",
-    "group": "G",
-    "confederation": "UEFA",
-    "fifa_rank": 9,
-    "elo": 1950,
-    "manager": "Domenico Tedesco",
-    "alive": true,
-    "image": "/teams/BEL.jpeg",
-    "champion_prob": 0.0535
-  },
-  {
-    "team_id": 36,
-    "name": "Norway",
-    "code": "NOR",
-    "group": "I",
-    "confederation": "UEFA",
-    "fifa_rank": 44,
-    "elo": 1775,
-    "manager": "Ståle Solbakken",
-    "alive": true,
-    "image": "/teams/NOR.jpeg",
-    "champion_prob": 0.0492
-  },
-  {
-    "team_id": 8,
-    "name": "Switzerland",
-    "code": "SUI",
-    "group": "B",
-    "confederation": "UEFA",
-    "fifa_rank": 19,
-    "elo": 1860,
-    "manager": "Murat Yakin",
-    "alive": true,
-    "image": "/teams/SUI.jpeg",
-    "champion_prob": 0.0228
+    "champion_prob": 0.3896,
+    "archived_champion_prob": 0.1636,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Finalist",
+      "result_label": "FINALIST",
+      "stage": "Semi-finals",
+      "match_id": 102,
+      "opponent": "England",
+      "goals_for": 2,
+      "goals_against": 1,
+      "won": true,
+      "result_text": "Beat England 2–1"
+    }
   },
   {
     "team_id": 1,
@@ -101,7 +64,11 @@
     "manager": "Javier Aguirre",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 2,
@@ -114,7 +81,11 @@
     "manager": "Hugo Broos",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 3,
@@ -127,7 +98,11 @@
     "manager": "Hong Myung-bo",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 4,
@@ -140,7 +115,11 @@
     "manager": "Miroslav Koubek",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 5,
@@ -153,7 +132,11 @@
     "manager": "Jesse Marsch",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 6,
@@ -166,7 +149,11 @@
     "manager": "Sergej Barbarez",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 7,
@@ -179,7 +166,38 @@
     "manager": "Julen Lopetegui",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
+  },
+  {
+    "team_id": 8,
+    "name": "Switzerland",
+    "code": "SUI",
+    "group": "B",
+    "confederation": "UEFA",
+    "fifa_rank": 19,
+    "elo": 1860,
+    "manager": "Murat Yakin",
+    "alive": false,
+    "image": null,
+    "champion_prob": 0.0,
+    "archived_champion_prob": 0.0228,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 100,
+      "opponent": "Argentina",
+      "goals_for": 1,
+      "goals_against": 3,
+      "won": false,
+      "result_text": "Lost 1–3 to Argentina"
+    }
   },
   {
     "team_id": 9,
@@ -192,7 +210,11 @@
     "manager": "Carlo Ancelotti",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 10,
@@ -205,7 +227,11 @@
     "manager": "Walid Regragui",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 11,
@@ -218,7 +244,11 @@
     "manager": "Sébastien Migné",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 12,
@@ -231,7 +261,11 @@
     "manager": "Steve Clarke",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 13,
@@ -244,7 +278,11 @@
     "manager": "Mauricio Pochettino",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 14,
@@ -257,7 +295,11 @@
     "manager": "Gustavo Alfaro",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 15,
@@ -270,7 +312,11 @@
     "manager": "Tony Popovic",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 16,
@@ -283,7 +329,11 @@
     "manager": "Vincenzo Montella",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 17,
@@ -296,7 +346,11 @@
     "manager": "Julian Nagelsmann",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 18,
@@ -309,7 +363,11 @@
     "manager": "Dick Advocaat",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 19,
@@ -322,7 +380,11 @@
     "manager": "Emerse Faé",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 20,
@@ -335,7 +397,11 @@
     "manager": "Sebastián Beccacece",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 21,
@@ -348,7 +414,11 @@
     "manager": "Ronald Koeman",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 22,
@@ -361,7 +431,11 @@
     "manager": "Hajime Moriyasu",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 23,
@@ -374,7 +448,11 @@
     "manager": "Jon Dahl Tomasson",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 24,
@@ -387,7 +465,38 @@
     "manager": "Hervé Renard",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
+  },
+  {
+    "team_id": 25,
+    "name": "Belgium",
+    "code": "BEL",
+    "group": "G",
+    "confederation": "UEFA",
+    "fifa_rank": 9,
+    "elo": 1950,
+    "manager": "Domenico Tedesco",
+    "alive": false,
+    "image": null,
+    "champion_prob": 0.0,
+    "archived_champion_prob": 0.0535,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 98,
+      "opponent": "Spain",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to Spain"
+    }
   },
   {
     "team_id": 26,
@@ -400,7 +509,11 @@
     "manager": "Hossam Hassan",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 27,
@@ -413,7 +526,11 @@
     "manager": "Amir Ghalenoei",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 28,
@@ -426,7 +543,11 @@
     "manager": "Darren Bazeley",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 30,
@@ -439,7 +560,11 @@
     "manager": "Bubista",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 31,
@@ -452,7 +577,11 @@
     "manager": "Georgios Donis",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 32,
@@ -465,7 +594,38 @@
     "manager": "Marcelo Bielsa",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
+  },
+  {
+    "team_id": 33,
+    "name": "France",
+    "code": "FRA",
+    "group": "I",
+    "confederation": "UEFA",
+    "fifa_rank": 3,
+    "elo": 2100,
+    "manager": "Didier Deschamps",
+    "alive": false,
+    "image": null,
+    "champion_prob": 0.0,
+    "archived_champion_prob": 0.4267,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "SEMI-FINAL EXIT",
+      "stage": "Semi-finals",
+      "match_id": 101,
+      "opponent": "Spain",
+      "goals_for": 0,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 0–2 to Spain"
+    }
   },
   {
     "team_id": 34,
@@ -478,7 +638,11 @@
     "manager": "Pape Thiaw",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 35,
@@ -491,7 +655,38 @@
     "manager": "Graham Arnold",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
+  },
+  {
+    "team_id": 36,
+    "name": "Norway",
+    "code": "NOR",
+    "group": "I",
+    "confederation": "UEFA",
+    "fifa_rank": 44,
+    "elo": 1775,
+    "manager": "Ståle Solbakken",
+    "alive": false,
+    "image": null,
+    "champion_prob": 0.0,
+    "archived_champion_prob": 0.0492,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 99,
+      "opponent": "England",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to England"
+    }
   },
   {
     "team_id": 38,
@@ -504,7 +699,11 @@
     "manager": "Vladimir Petković",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 39,
@@ -517,7 +716,11 @@
     "manager": "Ralf Rangnick",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 40,
@@ -530,7 +733,11 @@
     "manager": "Jamal Sellami",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 41,
@@ -543,7 +750,11 @@
     "manager": "Roberto Martínez",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 42,
@@ -556,7 +767,11 @@
     "manager": "Sébastien Desabre",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 43,
@@ -569,7 +784,11 @@
     "manager": "Fabio Cannavaro",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 44,
@@ -582,7 +801,38 @@
     "manager": "Néstor Lorenzo",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
+  },
+  {
+    "team_id": 45,
+    "name": "England",
+    "code": "ENG",
+    "group": "L",
+    "confederation": "UEFA",
+    "fifa_rank": 4,
+    "elo": 2050,
+    "manager": "Thomas Tuchel",
+    "alive": false,
+    "image": null,
+    "champion_prob": 0.0,
+    "archived_champion_prob": 0.1198,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "SEMI-FINAL EXIT",
+      "stage": "Semi-finals",
+      "match_id": 102,
+      "opponent": "Argentina",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to Argentina"
+    }
   },
   {
     "team_id": 46,
@@ -595,7 +845,11 @@
     "manager": "Zlatko Dalić",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 47,
@@ -608,7 +862,11 @@
     "manager": "Carlos Queiroz",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   },
   {
     "team_id": 48,
@@ -621,6 +879,10 @@
     "manager": "Thomas Christiansen",
     "alive": false,
     "image": null,
-    "champion_prob": 0.0
+    "champion_prob": 0.0,
+    "archived_champion_prob": null,
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals",
+    "archived_result": null
   }
 ]

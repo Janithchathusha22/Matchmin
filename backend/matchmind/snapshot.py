@@ -1,4 +1,4 @@
-"""Build the seven-team, pre-match analytics snapshot.
+"""Build the live title-contender analytics snapshot.
 
 Run: ``uv run python -m matchmind.snapshot``
 """
@@ -35,7 +35,7 @@ def build_snapshot() -> pd.DataFrame:
     # Map raw xG onto the normalized match view without converting unknowns to 0.
     xg = detailed.set_index("match_id")[["home_xg", "away_xg"]]
     next_fixtures = matches[(matches["status"] == "Scheduled") &
-                            matches["home_team"].notna() & matches["away_team"].notna()]
+                            (matches["home_team"].notna() | matches["away_team"].notna())]
     rows = []
     for team in remaining.itertuples():
         played = matches[((matches.home_team == team.team_name) |

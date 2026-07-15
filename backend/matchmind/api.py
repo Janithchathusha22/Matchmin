@@ -19,7 +19,8 @@ from pydantic import BaseModel
 from . import __version__
 from .data import (ARTIFACTS_DIR, FEATURE_NAMES, bracket_state, build_wc_features,
                    current_match_features, data_fingerprint, load_remaining_snapshot,
-                   load_remaining_teams, load_teams, load_wc_matches)
+                   forecast_team_results, load_forecast_history, load_remaining_teams,
+                   load_teams, load_wc_matches)
 from .explain import exact_baseline_shapley
 from .poisson import (knockout_advance_probability, poisson_outcome_probs,
                       top_scorelines)
@@ -132,6 +133,10 @@ def teams() -> list[dict]:
     df = load_teams()
     sim = {r["team"]: r for r in _artifacts()["simulation"]["title_odds"]}
     remaining = load_remaining_teams().set_index("team_name").to_dict("index")
+    forecast_history = load_forecast_history()
+    archived_snapshot = forecast_history[0] if forecast_history else {}
+    archived_odds = {row["team"]: row for row in archived_snapshot.get("title_odds", [])}
+    archived_results = forecast_team_results()
     out = []
     for t in df.itertuples():
         odds = sim.get(t.team_name, {})
@@ -141,7 +146,11 @@ def teams() -> list[dict]:
                     "elo": int(t.elo_rating), "manager": t.manager_name,
                     "alive": t.team_name in remaining,
                     "image": remaining.get(t.team_name, {}).get("image_path"),
-                    "champion_prob": odds.get("champion", 0.0)})
+                    "champion_prob": odds.get("champion", 0.0),
+                    "archived_champion_prob": archived_odds.get(t.team_name, {}).get("champion"),
+                    "archived_forecast_as_of": archived_snapshot.get("as_of"),
+                    "archived_forecast_stage": archived_snapshot.get("stage"),
+                    "archived_result": archived_results.get(t.team_name)})
     return sorted(out, key=lambda x: -x["champion_prob"])
 
 
@@ -177,15 +186,26 @@ def team_profile(name: str) -> dict:
                       "gf": gf, "ga": ga,
                       "result": "W" if gf > ga else ("L" if ga > gf else "D")})
     sim = {r["team"]: r for r in _artifacts()["simulation"]["title_odds"]}
+    forecast_history = load_forecast_history()
+    archived_snapshot = forecast_history[0] if forecast_history else {}
+    archived_odds = {
+        r["team"]: r for r in archived_snapshot.get("title_odds", [])
+    }.get(t["team_name"])
+    archived_result = forecast_team_results().get(t["team_name"])
     remaining = load_remaining_teams()
     contender = remaining[remaining["team_name"] == t["team_name"]]
-    image = contender.iloc[0]["image_path"] if not contender.empty else None
+    image = (contender.iloc[0]["image_path"] if not contender.empty else
+             (f"/teams/{t['fifa_code']}.jpeg" if archived_odds else None))
     return {"name": t["team_name"], "code": t["fifa_code"], "group": t["group_letter"],
             "confederation": t["confederation"], "elo": int(t["elo_rating"]),
             "fifa_rank": int(t["fifa_ranking_pre_tournament"]),
             "manager": t["manager_name"], "matches": games,
             "alive": not contender.empty, "image": image,
-            "odds": sim.get(t["team_name"])}
+            "odds": sim.get(t["team_name"]),
+            "archived_odds": archived_odds,
+            "archived_result": archived_result,
+            "archived_forecast_as_of": archived_snapshot.get("as_of") if archived_odds else None,
+            "archived_forecast_stage": archived_snapshot.get("stage") if archived_odds else None}
 
 
 @app.get("/api/simulate")
@@ -194,13 +214,15 @@ def simulate() -> dict:
     return {"model": sim["model"], "runs": sim["runs"],
             "as_of": sim.get("as_of"), "generated_at_utc": sim.get("generated_at_utc"),
             "artifacts_fresh": sim.get("data_fingerprint") == data_fingerprint(),
-            "title_odds": sim["title_odds"], "upcoming": sim["upcoming"]}
+            "title_odds": sim["title_odds"], "upcoming": sim["upcoming"],
+            "prediction_history": sim.get("prediction_history", [])}
 
 
 @app.get("/api/bracket")
 def bracket() -> dict:
     sim = _artifacts()["simulation"]
     return {"slots": bracket_state(), "predictions": sim["upcoming"],
+            "prediction_history": sim.get("prediction_history", []),
             "as_of": sim.get("as_of"),
             "artifacts_fresh": sim.get("data_fingerprint") == data_fingerprint()}
 

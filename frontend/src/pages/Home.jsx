@@ -166,12 +166,13 @@ function Hero({ favourite, simulation, accuracy }) {
 function MatchCard({ match, featured = false }) {
   const awayAdvance = 1 - match.advance_prob_home
   const homeIsPick = match.pick === match.home
+  const isFinal = match.stage === 'Final'
   return (
     <article className={`match-glass group ${featured ? 'match-glass--featured' : ''}`}>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="size-1.5 rounded-full bg-accent shadow-[0_0_10px_rgba(65,255,154,.8)]" />
-          <span className="text-[10px] font-black uppercase tracking-[.2em] text-accent">Upcoming</span>
+          <span className="text-[10px] font-black uppercase tracking-[.2em] text-accent">{isFinal ? 'World Cup Final' : match.stage}</span>
         </div>
         <span className="text-[11px] font-semibold uppercase tracking-[.15em] text-slate-400">{formatDate(match.date)}</span>
       </div>
@@ -196,7 +197,7 @@ function MatchCard({ match, featured = false }) {
         <span className="bg-away transition-all duration-700" style={{ width: pct(match.probs.A, 1) }} />
       </div>
       <div className="mt-5 flex items-center justify-between border-t border-white/10 pt-4 text-xs">
-        <span className="text-slate-400">Model pick <b className="text-white">{match.pick}</b></span>
+        <span className="text-slate-400">{isFinal ? 'Cup winner pick' : 'Model pick'} <b className={isFinal ? 'text-gold' : 'text-white'}>{match.pick}</b></span>
         <span className="rounded-lg bg-white/[.06] px-2.5 py-1.5 font-bold text-slate-200">
           Score {match.top_scorelines[0].home_goals}–{match.top_scorelines[0].away_goals}
         </span>
@@ -282,8 +283,9 @@ const FEATURES = [
   },
 ]
 
-function ModelStory({ accuracy }) {
-  const recent = [...accuracy.matches].slice(-4).reverse()
+function ModelStory({ predictionHistory }) {
+  const recent = [...predictionHistory].slice(-5).reverse()
+  const lockedCorrect = predictionHistory.filter((match) => match.correct).length
   return (
     <section className="story-panel">
       <div className="grid gap-10 lg:grid-cols-[.82fr_1.18fr] lg:items-end">
@@ -297,17 +299,17 @@ function ModelStory({ accuracy }) {
         <div className="glass-shine rounded-[1.5rem] border border-white/10 bg-black/20 p-5 sm:p-6">
           <div className="flex items-center justify-between border-b border-white/10 pb-4">
             <div>
-              <p className="text-[10px] font-black uppercase tracking-[.2em] text-slate-500">Recent calls</p>
-              <p className="mt-1 text-sm font-bold text-white">Live accuracy ledger</p>
+              <p className="text-[10px] font-black uppercase tracking-[.2em] text-slate-500">Never rewritten after kick-off</p>
+              <p className="mt-1 text-sm font-bold text-white">Locked prediction record</p>
             </div>
-            <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1.5 text-xs font-black text-accent">{accuracy.correct}/{accuracy.matches_scored} correct</span>
+            <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1.5 text-xs font-black text-accent">{lockedCorrect}/{predictionHistory.length} correct</span>
           </div>
           <div className="mt-2 divide-y divide-white/[.06]">
             {recent.map((match) => (
               <div key={match.match_id} className="grid grid-cols-[1fr_auto] items-center gap-4 py-3.5 text-sm">
                 <div className="flex min-w-0 items-center gap-3">
                   <span className={`grid size-7 shrink-0 place-items-center rounded-lg text-[10px] font-black ${match.correct ? 'bg-accent/10 text-accent' : 'bg-red-400/10 text-red-300'}`}>{match.correct ? 'HIT' : 'MISS'}</span>
-                  <span className="truncate font-semibold text-slate-200">{match.home} <b className="text-white">{match.home_score}–{match.away_score}</b> {match.away}</span>
+                  <span className="truncate font-semibold text-slate-200">{match.home} <b className="text-white">{match.home_score}–{match.away_score}</b> {match.away} <span className="text-slate-500">· picked {match.pick}</span></span>
                 </div>
                 <span className="hidden text-xs text-slate-500 sm:block">{match.stage}</span>
               </div>
@@ -337,8 +339,8 @@ export default function Home() {
         <FadeUp>
           <div className="mb-7 flex flex-wrap items-end justify-between gap-4">
             <div>
-              <p className="eyebrow">Next on the road to glory</p>
-              <h2 id="upcoming-title" className="section-heading">The matches that change everything.</h2>
+              <p className="eyebrow">The final call</p>
+              <h2 id="upcoming-title" className="section-heading">Spain or Argentina — who lifts the cup?</h2>
             </div>
             <Link to="/predict" className="inline-flex items-center gap-2 text-sm font-black text-accent hover:text-white">Open match lab <Arrow /></Link>
           </div>
@@ -377,7 +379,7 @@ export default function Home() {
         </div>
       </section>
 
-      <FadeUp><ModelStory accuracy={acc.data} /></FadeUp>
+      <FadeUp><ModelStory predictionHistory={sim.data.prediction_history ?? []} /></FadeUp>
 
       <FadeUp>
         <section className="cta-panel">

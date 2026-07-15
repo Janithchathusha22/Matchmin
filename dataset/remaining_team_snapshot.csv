@@ -1,8 +1,3 @@
 team_id,team_name,fifa_code,image_path,tournament_status,fifa_rank,elo_rating,matches_played,wins,draws,losses,form_points_per_match,goals_for_per_match,goals_against_per_match,verified_xg_for_per_match,verified_xg_against_per_match,avg_possession,avg_shots,avg_shots_on_target,rest_days_before_next_match,next_match_id,verified_as_of
-33,France,FRA,/teams/FRA.jpeg,Semi-finalist,3,2100,6,6,0,0,3.0,2.667,0.333,2.116,0.754,59.0,17.4,7.8,,,2026-07-10
-29,Spain,ESP,/teams/ESP.jpeg,Quarter-finalist,2,2120,5,4,1,0,2.6,1.8,0.0,2.262,0.466,63.6,18.8,7.6,4.0,98.0,2026-07-10
-25,Belgium,BEL,/teams/BEL.jpeg,Quarter-finalist,9,1950,5,3,2,0,2.2,2.6,1.0,2.034,1.294,55.4,18.8,7.0,3.0,98.0,2026-07-10
-36,Norway,NOR,/teams/NOR.jpeg,Quarter-finalist,44,1775,5,4,0,1,2.4,2.4,1.8,1.834,1.376,54.0,10.0,4.8,6.0,99.0,2026-07-10
-45,England,ENG,/teams/ENG.jpeg,Quarter-finalist,4,2050,5,4,1,0,2.6,2.2,1.0,1.816,1.172,53.4,14.4,6.4,5.0,99.0,2026-07-10
-37,Argentina,ARG,/teams/ARG.jpeg,Quarter-finalist,1,2150,5,5,0,0,3.0,2.8,1.0,2.18,0.547,60.0,14.0,6.5,5.0,100.0,2026-07-10
-8,Switzerland,SUI,/teams/SUI.jpeg,Quarter-finalist,19,1860,5,4,1,0,2.6,1.8,0.6,1.805,0.935,53.75,14.0,5.75,5.0,100.0,2026-07-10
+29,Spain,ESP,/teams/ESP.jpeg,Finalist,2,2120,7,6,1,0,3.0,1.857,0.143,2.262,0.466,63.6,18.8,7.6,5,104,2026-07-16
+37,Argentina,ARG,/teams/ARG.jpeg,Finalist,1,2150,7,7,0,0,3.0,2.714,1.0,2.18,0.547,60.0,14.0,6.5,4,104,2026-07-16

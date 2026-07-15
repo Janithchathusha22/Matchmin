@@ -17,6 +17,7 @@ from .data import (ARTIFACTS_DIR, DATASET_DIR, bracket_state, build_wc_features,
 from .poisson import knockout_advance_probability, top_scorelines
 
 N_RUNS = 200_000
+AS_OF = "2026-07-16"
 # Semi-final feeders (QF match ids) and their downstream slots
 SIM_ORDER = [95, 96, 97, 98, 99, 100, 101, 102, 103, 104]
 
@@ -124,24 +125,65 @@ def simulate(n_runs: int = N_RUNS, seed: int = 42) -> dict:
             "top_scorelines": top_scorelines(strengths, s["home"], s["away"], n=5),
             "pick": s["home"] if advance["home"] >= 0.5 else s["away"],
         })
+    fixtures.sort(key=lambda item: (item["stage"] != "Final", item["date"]))
 
     return {"model": model_name, "runs": n_runs,
-            "as_of": "2026-07-10", "data_fingerprint": data_fingerprint(),
+            "as_of": AS_OF, "data_fingerprint": data_fingerprint(),
             "generated_at_utc": datetime.now(timezone.utc).isoformat(),
             "title_odds": table,
             "upcoming": fixtures, "bracket": list(slots.values())}
 
 
+def merge_prediction_history(previous: dict, slots: list[dict]) -> list[dict]:
+    """Keep pre-match calls immutable and attach results once fixtures finish."""
+    slot_by_id = {slot["match_id"]: slot for slot in slots}
+    archived = {
+        int(item["match_id"]): dict(item)
+        for item in previous.get("history", [])
+    }
+
+    for prediction in previous.get("upcoming", []):
+        match_id = int(prediction["match_id"])
+        slot = slot_by_id.get(match_id)
+        if not slot or not slot.get("winner"):
+            continue
+        archived.setdefault(match_id, {
+            **prediction,
+            "predicted_as_of": previous.get("as_of"),
+            "predicted_at_utc": previous.get("generated_at_utc"),
+        })
+
+    for match_id, item in archived.items():
+        slot = slot_by_id.get(match_id)
+        if not slot or not slot.get("winner"):
+            continue
+        item.update({
+            "actual_winner": slot["winner"],
+            "home_score": slot["home_score"],
+            "away_score": slot["away_score"],
+            "home_pens": slot["home_pens"],
+            "away_pens": slot["away_pens"],
+            "correct": item.get("pick") == slot["winner"],
+        })
+
+    return [archived[key] for key in sorted(archived)]
+
+
 def main() -> None:
     result = simulate()
+    lock_path = DATASET_DIR / "locked_predictions.json"
+    previous = json.loads(lock_path.read_text()) if lock_path.exists() else {}
+    history = merge_prediction_history(previous, result["bracket"])
+    result["prediction_history"] = history
     (ARTIFACTS_DIR / "simulation.json").write_text(json.dumps(result, indent=2))
-    (DATASET_DIR / "locked_predictions.json").write_text(json.dumps({
+    lock_path.write_text(json.dumps({
         "lock_type": "model_snapshot",
         "model": result["model"],
         "runs": result["runs"],
         "as_of": result["as_of"],
         "generated_at_utc": result["generated_at_utc"],
         "data_fingerprint": result["data_fingerprint"],
+        "history": history,
         "upcoming": result["upcoming"],
         "title_odds": result["title_odds"],
     }, indent=2))

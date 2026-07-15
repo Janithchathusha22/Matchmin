@@ -37,7 +37,7 @@
   "Switzerland": {
     "winrate5": 0.6,
     "goals_for5": 1.8,
-    "goals_against5": 0.6
+    "goals_against5": 1.0
   },
   "Brazil": {
     "winrate5": 0.6,
@@ -122,7 +122,7 @@
   "Belgium": {
     "winrate5": 0.6,
     "goals_for5": 2.6,
-    "goals_against5": 1.0
+    "goals_against5": 1.2
   },
   "Egypt": {
     "winrate5": 0.2,
@@ -140,9 +140,9 @@
     "goals_against5": 3.333333
   },
   "Spain": {
-    "winrate5": 0.8,
+    "winrate5": 1.0,
     "goals_for5": 1.8,
-    "goals_against5": 0.0
+    "goals_against5": 0.2
   },
   "Cabo Verde": {
     "winrate5": 0.0,
@@ -160,9 +160,9 @@
     "goals_against5": 1.333333
   },
   "France": {
-    "winrate5": 1.0,
-    "goals_for5": 2.6,
-    "goals_against5": 0.2
+    "winrate5": 0.8,
+    "goals_for5": 2.0,
+    "goals_against5": 0.6
   },
   "Senegal": {
     "winrate5": 0.25,
@@ -175,14 +175,14 @@
     "goals_against5": 4.0
   },
   "Norway": {
-    "winrate5": 0.8,
-    "goals_for5": 2.4,
-    "goals_against5": 1.8
+    "winrate5": 0.6,
+    "goals_for5": 1.8,
+    "goals_against5": 2.0
   },
   "Argentina": {
     "winrate5": 1.0,
     "goals_for5": 2.8,
-    "goals_against5": 1.0
+    "goals_against5": 1.4
   },
   "Algeria": {
     "winrate5": 0.25,
@@ -221,8 +221,8 @@
   },
   "England": {
     "winrate5": 0.8,
-    "goals_for5": 2.2,
-    "goals_against5": 1.0
+    "goals_for5": 2.0,
+    "goals_against5": 1.2
   },
   "Croatia": {
     "winrate5": 0.5,

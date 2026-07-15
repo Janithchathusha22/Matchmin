@@ -12,6 +12,7 @@ from __future__ import annotations
 
 from collections import defaultdict, deque
 import hashlib
+import json
 from pathlib import Path
 
 import numpy as np
@@ -38,12 +39,20 @@ def load_teams() -> pd.DataFrame:
 
 
 def load_remaining_teams() -> pd.DataFrame:
-    """The verified seven-team tournament snapshot used by the live UI."""
+    """The verified live title-contender snapshot used by the live UI."""
     return pd.read_csv(DATASET_DIR / "remaining_teams.csv")
 
 
 def load_remaining_snapshot() -> pd.DataFrame:
     return pd.read_csv(DATASET_DIR / "remaining_team_snapshot.csv")
+
+
+def load_forecast_history() -> list[dict]:
+    """Immutable pre-match tournament forecasts retained for the public ledger."""
+    path = DATASET_DIR / "forecast_history.json"
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8")).get("snapshots", [])
 
 
 def data_fingerprint() -> str:
@@ -240,3 +249,48 @@ def bracket_state() -> list[dict]:
             "sources": BRACKET_SOURCES.get(mid),
         })
     return slots
+
+
+def forecast_team_results() -> dict[str, dict]:
+    """Resolve the current outcome of every team in the archived title forecast."""
+    snapshots = load_forecast_history()
+    if not snapshots:
+        return {}
+    archived_teams = {row["team"] for row in snapshots[0].get("title_odds", [])}
+    remaining = set(load_remaining_teams()["team_name"])
+    matches = load_wc_matches()
+    knockout = matches[(matches["match_id"] >= 97) & (matches["status"] == "Completed")]
+    results: dict[str, dict] = {}
+
+    for team in archived_teams:
+        played = knockout[(knockout["home_team"] == team) | (knockout["away_team"] == team)]
+        if played.empty:
+            continue
+        match = played.sort_values("match_id").iloc[-1]
+        is_home = match["home_team"] == team
+        opponent = match["away_team"] if is_home else match["home_team"]
+        goals_for = int(match["home_score"] if is_home else match["away_score"])
+        goals_against = int(match["away_score"] if is_home else match["home_score"])
+        won = goals_for > goals_against
+        finalist = team in remaining
+        if finalist:
+            result_label = "FINALIST"
+        elif match["stage_name"] == "Semi-finals":
+            result_label = "SEMI-FINAL EXIT"
+        else:
+            result_label = "QUARTER-FINAL EXIT"
+        results[team] = {
+            "status": "Finalist" if finalist else "Eliminated",
+            "result_label": result_label,
+            "stage": match["stage_name"],
+            "match_id": int(match["match_id"]),
+            "opponent": opponent,
+            "goals_for": goals_for,
+            "goals_against": goals_against,
+            "won": won,
+            "result_text": (
+                f"Beat {opponent} {goals_for}–{goals_against}" if won else
+                f"Lost {goals_for}–{goals_against} to {opponent}"
+            ),
+        }
+    return results

@@ -29,6 +29,7 @@ function TeamRow({ name, score, pens, winner, prob }) {
 
 function MatchBox({ slot, prediction }) {
   const probHome = prediction?.advance_prob_home
+  const lockedResult = slot.winner && prediction?.correct != null
   return (
     <div className={`glass glass-hover overflow-hidden ${slot.stage === 'Final' ? 'border-gold/40 shadow-[0_0_28px_rgba(255,193,7,0.12)]' : ''}`}>
       <div className="flex items-center justify-between border-b border-white/5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-slate-500">
@@ -40,11 +41,15 @@ function MatchBox({ slot, prediction }) {
       <div className="mx-3 border-t border-white/5" />
       <TeamRow name={slot.away} score={slot.away_score} pens={slot.away_pens} winner={slot.winner}
         prob={slot.winner ? null : probHome != null ? 1 - probHome : null} />
-      {!slot.winner && prediction && (
+      {prediction && (
         <div className="border-t border-white/5 bg-accent/5 px-3 py-1.5 text-[11px]">
-          <span className="text-slate-400">AI pick: </span>
-          <span className="font-bold text-accent">{prediction.pick}</span>
-          <span className="tabular text-slate-500"> · likely {prediction.top_scorelines[0].home_goals}–{prediction.top_scorelines[0].away_goals}</span>
+          <span className="text-slate-400">{lockedResult ? 'Locked pick: ' : 'AI pick: '}</span>
+          <span className={`font-bold ${lockedResult && !prediction.correct ? 'text-red-300' : 'text-accent'}`}>{prediction.pick}</span>
+          {lockedResult ? (
+            <span className={`ml-1.5 font-black ${prediction.correct ? 'text-accent' : 'text-red-300'}`}>· {prediction.correct ? 'HIT' : 'MISS'}</span>
+          ) : (
+            <span className="tabular text-slate-500"> · likely {prediction.top_scorelines[0].home_goals}–{prediction.top_scorelines[0].away_goals}</span>
+          )}
         </div>
       )}
     </div>
@@ -57,7 +62,9 @@ export default function Bracket() {
   if (error) return <ErrorBox error={error} />
 
   const slots = Object.fromEntries(data.slots.map((s) => [s.match_id, s]))
-  const preds = Object.fromEntries(data.predictions.map((p) => [p.match_id, p]))
+  const preds = Object.fromEntries(
+    [...(data.prediction_history ?? []), ...data.predictions].map((p) => [p.match_id, p]),
+  )
 
   return (
     <div>

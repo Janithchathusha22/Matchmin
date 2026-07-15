@@ -1,0 +1,20 @@
+{
+  "snapshots": [
+    {
+      "as_of": "2026-07-10",
+      "stage": "Quarter-finals",
+      "model": "weighted_ensemble",
+      "runs": 200000,
+      "label": "Original seven-team title forecast",
+      "title_odds": [
+        {"team": "France", "reach_qf": 1.0, "reach_sf": 1.0, "reach_final": 0.639, "champion": 0.4267},
+        {"team": "Spain", "reach_qf": 1.0, "reach_sf": 0.6622, "reach_final": 0.26, "champion": 0.1643},
+        {"team": "Argentina", "reach_qf": 1.0, "reach_sf": 0.7733, "reach_final": 0.3906, "champion": 0.1636},
+        {"team": "England", "reach_qf": 1.0, "reach_sf": 0.5392, "reach_final": 0.3222, "champion": 0.1198},
+        {"team": "Belgium", "reach_qf": 1.0, "reach_sf": 0.3378, "reach_final": 0.101, "champion": 0.0535},
+        {"team": "Norway", "reach_qf": 1.0, "reach_sf": 0.4608, "reach_final": 0.2059, "champion": 0.0492},
+        {"team": "Switzerland", "reach_qf": 1.0, "reach_sf": 0.2267, "reach_final": 0.0813, "champion": 0.0228}
+      ]
+    }
+  ]
+}

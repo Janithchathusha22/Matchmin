@@ -26,6 +26,8 @@ from matchmind.data import (  # noqa: E402
     build_wc_features,
     current_match_features,
     data_fingerprint,
+    forecast_team_results,
+    load_forecast_history,
     load_remaining_snapshot,
     load_remaining_teams,
     load_teams,
@@ -84,6 +86,10 @@ def export_teams(simulation: dict) -> list[dict]:
     teams = load_teams()
     odds = {row["team"]: row for row in simulation["title_odds"]}
     remaining = load_remaining_teams().set_index("team_name").to_dict("index")
+    forecast_history = load_forecast_history()
+    archived_snapshot = forecast_history[0] if forecast_history else {}
+    archived_odds = {row["team"]: row for row in archived_snapshot.get("title_odds", [])}
+    archived_results = forecast_team_results()
     rows = []
     for team in teams.itertuples():
         team_odds = odds.get(team.team_name, {})
@@ -101,6 +107,10 @@ def export_teams(simulation: dict) -> list[dict]:
                 "alive": team.team_name in remaining,
                 "image": remain.get("image_path"),
                 "champion_prob": team_odds.get("champion", 0.0),
+                "archived_champion_prob": archived_odds.get(team.team_name, {}).get("champion"),
+                "archived_forecast_as_of": archived_snapshot.get("as_of"),
+                "archived_forecast_stage": archived_snapshot.get("stage"),
+                "archived_result": archived_results.get(team.team_name),
             }
         )
     return sorted(rows, key=lambda row: -row["champion_prob"])
@@ -121,6 +131,10 @@ def export_team_profiles(simulation: dict) -> dict[str, dict]:
     matches = load_wc_matches()
     sim_odds = {row["team"]: row for row in simulation["title_odds"]}
     remaining = load_remaining_teams()
+    forecast_history = load_forecast_history()
+    archived_snapshot = forecast_history[0] if forecast_history else {}
+    archived_odds = {row["team"]: row for row in archived_snapshot.get("title_odds", [])}
+    archived_results = forecast_team_results()
     profiles = {}
     for _, team in teams.iterrows():
         played = matches[
@@ -144,7 +158,9 @@ def export_team_profiles(simulation: dict) -> dict[str, dict]:
                 }
             )
         contender = remaining[remaining["team_name"] == team["team_name"]]
-        image = None if contender.empty else contender.iloc[0]["image_path"]
+        team_archive = archived_odds.get(team["team_name"])
+        image = (contender.iloc[0]["image_path"] if not contender.empty else
+                 (f"/teams/{team['fifa_code']}.jpeg" if team_archive else None))
         profiles[team["team_name"]] = {
             "name": team["team_name"],
             "code": team["fifa_code"],
@@ -157,6 +173,10 @@ def export_team_profiles(simulation: dict) -> dict[str, dict]:
             "alive": not contender.empty,
             "image": image,
             "odds": sim_odds.get(team["team_name"]),
+            "archived_odds": team_archive,
+            "archived_result": archived_results.get(team["team_name"]),
+            "archived_forecast_as_of": archived_snapshot.get("as_of") if team_archive else None,
+            "archived_forecast_stage": archived_snapshot.get("stage") if team_archive else None,
         }
     return profiles
 
@@ -193,10 +213,12 @@ def main() -> None:
         "artifacts_fresh": simulation_raw.get("data_fingerprint") == data_fingerprint(),
         "title_odds": simulation_raw["title_odds"],
         "upcoming": simulation_raw["upcoming"],
+        "prediction_history": simulation_raw.get("prediction_history", []),
     }
     bracket = {
         "slots": bracket_state(),
         "predictions": simulation_raw["upcoming"],
+        "prediction_history": simulation_raw.get("prediction_history", []),
         "as_of": simulation_raw.get("as_of"),
         "artifacts_fresh": simulation_raw.get("data_fingerprint") == data_fingerprint(),
     }

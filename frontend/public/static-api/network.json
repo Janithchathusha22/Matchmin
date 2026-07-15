@@ -8,9 +8,9 @@
       "fifa_rank": 14,
       "code": "MEX",
       "degree": 0.1064,
-      "betweenness": 0.0804,
-      "closeness": 0.3092,
-      "eigenvector": 0.1039,
+      "betweenness": 0.1064,
+      "closeness": 0.3534,
+      "eigenvector": 0.0954,
       "matches": 5
     },
     {
@@ -21,9 +21,9 @@
       "fifa_rank": 60,
       "code": "RSA",
       "degree": 0.0851,
-      "betweenness": 0.0637,
-      "closeness": 0.3092,
-      "eigenvector": 0.0876,
+      "betweenness": 0.0335,
+      "closeness": 0.3113,
+      "eigenvector": 0.0566,
       "matches": 4
     },
     {
@@ -35,8 +35,8 @@
       "code": "KOR",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2611,
-      "eigenvector": 0.0551,
+      "closeness": 0.2798,
+      "eigenvector": 0.038,
       "matches": 3
     },
     {
@@ -48,8 +48,8 @@
       "code": "CZE",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2611,
-      "eigenvector": 0.0551,
+      "closeness": 0.2798,
+      "eigenvector": 0.038,
       "matches": 3
     },
     {
@@ -60,9 +60,9 @@
       "fifa_rank": 33,
       "code": "CAN",
       "degree": 0.1064,
-      "betweenness": 0.1674,
-      "closeness": 0.3643,
-      "eigenvector": 0.1776,
+      "betweenness": 0.0918,
+      "closeness": 0.3672,
+      "eigenvector": 0.1117,
       "matches": 5
     },
     {
@@ -73,9 +73,9 @@
       "fifa_rank": 64,
       "code": "BIH",
       "degree": 0.0851,
-      "betweenness": 0.0434,
-      "closeness": 0.3431,
-      "eigenvector": 0.157,
+      "betweenness": 0.0343,
+      "closeness": 0.3456,
+      "eigenvector": 0.0972,
       "matches": 4
     },
     {
@@ -87,8 +87,8 @@
       "code": "QAT",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.3154,
-      "eigenvector": 0.125,
+      "closeness": 0.3197,
+      "eigenvector": 0.0785,
       "matches": 3
     },
     {
@@ -99,9 +99,9 @@
       "fifa_rank": 19,
       "code": "SUI",
       "degree": 0.1277,
-      "betweenness": 0.1628,
-      "closeness": 0.3615,
-      "eigenvector": 0.2246,
+      "betweenness": 0.0824,
+      "closeness": 0.373,
+      "eigenvector": 0.1835,
       "matches": 6
     },
     {
@@ -112,9 +112,9 @@
       "fifa_rank": 6,
       "code": "BRA",
       "degree": 0.1064,
-      "betweenness": 0.0681,
-      "closeness": 0.3219,
-      "eigenvector": 0.1656,
+      "betweenness": 0.0424,
+      "closeness": 0.3381,
+      "eigenvector": 0.1095,
       "matches": 5
     },
     {
@@ -125,9 +125,9 @@
       "fifa_rank": 7,
       "code": "MAR",
       "degree": 0.1277,
-      "betweenness": 0.1382,
-      "closeness": 0.3431,
-      "eigenvector": 0.2002,
+      "betweenness": 0.1233,
+      "closeness": 0.3821,
+      "eigenvector": 0.1429,
       "matches": 6
     },
     {
@@ -139,8 +139,8 @@
       "code": "HAI",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2749,
-      "eigenvector": 0.1053,
+      "closeness": 0.2901,
+      "eigenvector": 0.0631,
       "matches": 3
     },
     {
@@ -152,8 +152,8 @@
       "code": "SCO",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2749,
-      "eigenvector": 0.1053,
+      "closeness": 0.2901,
+      "eigenvector": 0.0631,
       "matches": 3
     },
     {
@@ -164,9 +164,9 @@
       "fifa_rank": 17,
       "code": "USA",
       "degree": 0.1064,
-      "betweenness": 0.0738,
-      "closeness": 0.3406,
-      "eigenvector": 0.1748,
+      "betweenness": 0.0485,
+      "closeness": 0.3456,
+      "eigenvector": 0.1122,
       "matches": 5
     },
     {
@@ -177,9 +177,9 @@
       "fifa_rank": 54,
       "code": "PAR",
       "degree": 0.1064,
-      "betweenness": 0.098,
-      "closeness": 0.3431,
-      "eigenvector": 0.1666,
+      "betweenness": 0.0977,
+      "closeness": 0.376,
+      "eigenvector": 0.1246,
       "matches": 5
     },
     {
@@ -190,9 +190,9 @@
       "fifa_rank": 27,
       "code": "AUS",
       "degree": 0.0851,
-      "betweenness": 0.0288,
-      "closeness": 0.3072,
-      "eigenvector": 0.1398,
+      "betweenness": 0.0148,
+      "closeness": 0.3176,
+      "eigenvector": 0.091,
       "matches": 4
     },
     {
@@ -204,8 +204,8 @@
       "code": "TUR",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2919,
-      "eigenvector": 0.1076,
+      "closeness": 0.3013,
+      "eigenvector": 0.0656,
       "matches": 3
     },
     {
@@ -216,9 +216,9 @@
       "fifa_rank": 10,
       "code": "GER",
       "degree": 0.0851,
-      "betweenness": 0.0397,
-      "closeness": 0.2919,
-      "eigenvector": 0.092,
+      "betweenness": 0.0285,
+      "closeness": 0.3032,
+      "eigenvector": 0.057,
       "matches": 4
     },
     {
@@ -230,8 +230,8 @@
       "code": "CUW",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2541,
-      "eigenvector": 0.0616,
+      "closeness": 0.2655,
+      "eigenvector": 0.0362,
       "matches": 3
     },
     {
@@ -242,9 +242,9 @@
       "fifa_rank": 38,
       "code": "CIV",
       "degree": 0.0851,
-      "betweenness": 0.0348,
-      "closeness": 0.2994,
-      "eigenvector": 0.1028,
+      "betweenness": 0.0345,
+      "closeness": 0.3241,
+      "eigenvector": 0.072,
       "matches": 4
     },
     {
@@ -255,9 +255,9 @@
       "fifa_rank": 23,
       "code": "ECU",
       "degree": 0.0851,
-      "betweenness": 0.0291,
-      "closeness": 0.2781,
-      "eigenvector": 0.0805,
+      "betweenness": 0.0254,
+      "closeness": 0.2994,
+      "eigenvector": 0.0521,
       "matches": 4
     },
     {
@@ -268,9 +268,9 @@
       "fifa_rank": 8,
       "code": "NED",
       "degree": 0.0851,
-      "betweenness": 0.0245,
-      "closeness": 0.2655,
-      "eigenvector": 0.1106,
+      "betweenness": 0.0142,
+      "closeness": 0.2883,
+      "eigenvector": 0.0696,
       "matches": 4
     },
     {
@@ -281,9 +281,9 @@
       "fifa_rank": 18,
       "code": "JPN",
       "degree": 0.0851,
-      "betweenness": 0.0104,
-      "closeness": 0.2597,
-      "eigenvector": 0.1043,
+      "betweenness": 0.006,
+      "closeness": 0.2798,
+      "eigenvector": 0.0641,
       "matches": 4
     },
     {
@@ -294,9 +294,9 @@
       "fifa_rank": 25,
       "code": "SWE",
       "degree": 0.0851,
-      "betweenness": 0.0385,
-      "closeness": 0.2814,
-      "eigenvector": 0.1162,
+      "betweenness": 0.0625,
+      "closeness": 0.3357,
+      "eigenvector": 0.0954,
       "matches": 4
     },
     {
@@ -308,8 +308,8 @@
       "code": "TUN",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2398,
-      "eigenvector": 0.074,
+      "closeness": 0.2686,
+      "eigenvector": 0.0458,
       "matches": 3
     },
     {
@@ -320,9 +320,9 @@
       "fifa_rank": 9,
       "code": "BEL",
       "degree": 0.1277,
-      "betweenness": 0.1775,
+      "betweenness": 0.0806,
       "closeness": 0.3588,
-      "eigenvector": 0.2111,
+      "eigenvector": 0.1828,
       "matches": 6
     },
     {
@@ -333,9 +333,9 @@
       "fifa_rank": 36,
       "code": "EGY",
       "degree": 0.1064,
-      "betweenness": 0.0561,
-      "closeness": 0.3113,
-      "eigenvector": 0.1763,
+      "betweenness": 0.0521,
+      "closeness": 0.3357,
+      "eigenvector": 0.1526,
       "matches": 5
     },
     {
@@ -347,8 +347,8 @@
       "code": "IRN",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2765,
-      "eigenvector": 0.1115,
+      "closeness": 0.2866,
+      "eigenvector": 0.0838,
       "matches": 3
     },
     {
@@ -360,8 +360,8 @@
       "code": "NZL",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2765,
-      "eigenvector": 0.1115,
+      "closeness": 0.2866,
+      "eigenvector": 0.0838,
       "matches": 3
     },
     {
@@ -371,11 +371,11 @@
       "elo": 2120,
       "fifa_rank": 2,
       "code": "ESP",
-      "degree": 0.1277,
-      "betweenness": 0.1422,
-      "closeness": 0.3241,
-      "eigenvector": 0.1886,
-      "matches": 6
+      "degree": 0.1702,
+      "betweenness": 0.1811,
+      "closeness": 0.4196,
+      "eigenvector": 0.3155,
+      "matches": 8
     },
     {
       "id": "Cabo Verde",
@@ -385,9 +385,9 @@
       "fifa_rank": 67,
       "code": "CPV",
       "degree": 0.0851,
-      "betweenness": 0.0193,
-      "closeness": 0.2798,
-      "eigenvector": 0.1314,
+      "betweenness": 0.0105,
+      "closeness": 0.3381,
+      "eigenvector": 0.1766,
       "matches": 4
     },
     {
@@ -399,8 +399,8 @@
       "code": "KSA",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2554,
-      "eigenvector": 0.0921,
+      "closeness": 0.3013,
+      "eigenvector": 0.123,
       "matches": 3
     },
     {
@@ -412,8 +412,8 @@
       "code": "URU",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2554,
-      "eigenvector": 0.0921,
+      "closeness": 0.3013,
+      "eigenvector": 0.123,
       "matches": 3
     },
     {
@@ -423,11 +423,11 @@
       "elo": 2100,
       "fifa_rank": 3,
       "code": "FRA",
-      "degree": 0.1277,
-      "betweenness": 0.1414,
-      "closeness": 0.3672,
-      "eigenvector": 0.2308,
-      "matches": 6
+      "degree": 0.1702,
+      "betweenness": 0.2769,
+      "closeness": 0.4653,
+      "eigenvector": 0.2974,
+      "matches": 8
     },
     {
       "id": "Senegal",
@@ -437,9 +437,9 @@
       "fifa_rank": 15,
       "code": "SEN",
       "degree": 0.0851,
-      "betweenness": 0.1093,
+      "betweenness": 0.0329,
       "closeness": 0.3588,
-      "eigenvector": 0.1811,
+      "eigenvector": 0.1661,
       "matches": 4
     },
     {
@@ -451,8 +451,8 @@
       "code": "IRQ",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.3219,
-      "eigenvector": 0.1425,
+      "closeness": 0.3431,
+      "eigenvector": 0.1356,
       "matches": 3
     },
     {
@@ -463,9 +463,9 @@
       "fifa_rank": 44,
       "code": "NOR",
       "degree": 0.1277,
-      "betweenness": 0.1879,
-      "closeness": 0.373,
-      "eigenvector": 0.2256,
+      "betweenness": 0.1127,
+      "closeness": 0.4123,
+      "eigenvector": 0.2146,
       "matches": 6
     },
     {
@@ -475,11 +475,11 @@
       "elo": 2150,
       "fifa_rank": 1,
       "code": "ARG",
-      "degree": 0.1277,
-      "betweenness": 0.0965,
-      "closeness": 0.3264,
-      "eigenvector": 0.2146,
-      "matches": 6
+      "degree": 0.1702,
+      "betweenness": 0.1674,
+      "closeness": 0.4123,
+      "eigenvector": 0.3217,
+      "matches": 8
     },
     {
       "id": "Algeria",
@@ -489,9 +489,9 @@
       "fifa_rank": 28,
       "code": "ALG",
       "degree": 0.0851,
-      "betweenness": 0.0177,
-      "closeness": 0.2938,
-      "eigenvector": 0.1584,
+      "betweenness": 0.006,
+      "closeness": 0.3219,
+      "eigenvector": 0.1655,
       "matches": 4
     },
     {
@@ -502,9 +502,9 @@
       "fifa_rank": 24,
       "code": "AUT",
       "degree": 0.0851,
-      "betweenness": 0.0142,
-      "closeness": 0.2798,
-      "eigenvector": 0.1518,
+      "betweenness": 0.0085,
+      "closeness": 0.3381,
+      "eigenvector": 0.1875,
       "matches": 4
     },
     {
@@ -516,8 +516,8 @@
       "code": "JOR",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2541,
-      "eigenvector": 0.1173,
+      "closeness": 0.2975,
+      "eigenvector": 0.1349,
       "matches": 3
     },
     {
@@ -528,9 +528,9 @@
       "fifa_rank": 5,
       "code": "POR",
       "degree": 0.1064,
-      "betweenness": 0.0701,
-      "closeness": 0.3113,
-      "eigenvector": 0.1652,
+      "betweenness": 0.039,
+      "closeness": 0.3456,
+      "eigenvector": 0.1656,
       "matches": 5
     },
     {
@@ -541,9 +541,9 @@
       "fifa_rank": 61,
       "code": "COD",
       "degree": 0.0851,
-      "betweenness": 0.0394,
-      "closeness": 0.3197,
-      "eigenvector": 0.1409,
+      "betweenness": 0.026,
+      "closeness": 0.3456,
+      "eigenvector": 0.138,
       "matches": 4
     },
     {
@@ -555,8 +555,8 @@
       "code": "UZB",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2798,
-      "eigenvector": 0.1069,
+      "closeness": 0.2866,
+      "eigenvector": 0.0893,
       "matches": 3
     },
     {
@@ -567,9 +567,9 @@
       "fifa_rank": 13,
       "code": "COL",
       "degree": 0.1064,
-      "betweenness": 0.0609,
-      "closeness": 0.3176,
-      "eigenvector": 0.172,
+      "betweenness": 0.028,
+      "closeness": 0.3219,
+      "eigenvector": 0.143,
       "matches": 5
     },
     {
@@ -579,11 +579,11 @@
       "elo": 2050,
       "fifa_rank": 4,
       "code": "ENG",
-      "degree": 0.1277,
-      "betweenness": 0.1604,
-      "closeness": 0.3481,
-      "eigenvector": 0.1862,
-      "matches": 6
+      "degree": 0.1702,
+      "betweenness": 0.2632,
+      "closeness": 0.4519,
+      "eigenvector": 0.2924,
+      "matches": 8
     },
     {
       "id": "Croatia",
@@ -593,9 +593,9 @@
       "fifa_rank": 11,
       "code": "CRO",
       "degree": 0.0851,
-      "betweenness": 0.0261,
-      "closeness": 0.3072,
-      "eigenvector": 0.1304,
+      "betweenness": 0.0071,
+      "closeness": 0.3357,
+      "eigenvector": 0.1422,
       "matches": 4
     },
     {
@@ -606,9 +606,9 @@
       "fifa_rank": 49,
       "code": "GHA",
       "degree": 0.0851,
-      "betweenness": 0.0187,
-      "closeness": 0.3032,
-      "eigenvector": 0.1316,
+      "betweenness": 0.0105,
+      "closeness": 0.3357,
+      "eigenvector": 0.1384,
       "matches": 4
     },
     {
@@ -620,8 +620,8 @@
       "code": "PAN",
       "degree": 0.0638,
       "betweenness": 0.0,
-      "closeness": 0.2831,
-      "eigenvector": 0.1002,
+      "closeness": 0.3219,
+      "eigenvector": 0.1146,
       "matches": 3
     }
   ],
@@ -782,8 +782,8 @@
       "source": "Switzerland",
       "target": "Argentina",
       "stage": "Quarter-finals",
-      "played": false,
-      "score": null,
+      "played": true,
+      "score": "3-1",
       "knockout": true
     },
     {
@@ -1094,8 +1094,8 @@
       "source": "Belgium",
       "target": "Spain",
       "stage": "Quarter-finals",
-      "played": false,
-      "score": null,
+      "played": true,
+      "score": "2-1",
       "knockout": true
     },
     {
@@ -1171,6 +1171,22 @@
       "knockout": true
     },
     {
+      "source": "Spain",
+      "target": "France",
+      "stage": "Semi-finals",
+      "played": true,
+      "score": "0-2",
+      "knockout": true
+    },
+    {
+      "source": "Spain",
+      "target": "Argentina",
+      "stage": "Final",
+      "played": false,
+      "score": null,
+      "knockout": true
+    },
+    {
       "source": "Cabo Verde",
       "target": "Uruguay",
       "stage": "Group Stage",
@@ -1227,6 +1243,14 @@
       "knockout": false
     },
     {
+      "source": "France",
+      "target": "England",
+      "stage": "Third-place match",
+      "played": false,
+      "score": null,
+      "knockout": true
+    },
+    {
       "source": "Senegal",
       "target": "Norway",
       "stage": "Group Stage",
@@ -1254,8 +1278,8 @@
       "source": "Norway",
       "target": "England",
       "stage": "Quarter-finals",
-      "played": false,
-      "score": null,
+      "played": true,
+      "score": "1-2",
       "knockout": true
     },
     {
@@ -1281,6 +1305,14 @@
       "played": true,
       "score": "1-3",
       "knockout": false
+    },
+    {
+      "source": "Argentina",
+      "target": "England",
+      "stage": "Semi-finals",
+      "played": true,
+      "score": "1-2",
+      "knockout": true
     },
     {
       "source": "Algeria",
@@ -1430,19 +1462,19 @@
   "insights": [
     {
       "title": "Tournament bridge",
-      "text": "Norway has the highest betweenness centrality (0.188) — the busiest crossroads of the bracket."
+      "text": "France has the highest betweenness centrality (0.277) — the busiest crossroads of the bracket."
     },
     {
       "title": "Strongest neighbourhood",
-      "text": "France tops eigenvector centrality (0.231) — it keeps meeting the tournament's most connected teams."
+      "text": "Argentina tops eigenvector centrality (0.322) — it keeps meeting the tournament's most connected teams."
     },
     {
       "title": "Small world",
-      "text": "Average shortest path in the main component: 3.34 hops across 48 teams."
+      "text": "Average shortest path in the main component: 3.06 hops across 48 teams."
     },
     {
       "title": "Group density",
-      "text": "100 matches connect 48 teams — graph density 0.089, with 12 complete K4 group cliques."
+      "text": "104 matches connect 48 teams — graph density 0.092, with 12 complete K4 group cliques."
     }
   ]
 }

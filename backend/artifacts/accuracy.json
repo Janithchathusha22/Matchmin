@@ -1,8 +1,8 @@
 {
   "model": "weighted_ensemble",
-  "matches_scored": 97,
-  "correct": 63,
-  "accuracy": 0.6495,
+  "matches_scored": 102,
+  "correct": 66,
+  "accuracy": 0.6471,
   "matches": [
     {
       "match_id": 1,
@@ -1749,6 +1749,96 @@
         "A": 0.161
       },
       "running_accuracy": 0.6495
+    },
+    {
+      "match_id": 98,
+      "date": "2026-07-10",
+      "stage": "Quarter-finals",
+      "home": "Spain",
+      "away": "Belgium",
+      "home_score": 2,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.512,
+        "D": 0.268,
+        "A": 0.219
+      },
+      "running_accuracy": 0.6531
+    },
+    {
+      "match_id": 99,
+      "date": "2026-07-11",
+      "stage": "Quarter-finals",
+      "home": "Norway",
+      "away": "England",
+      "home_score": 1,
+      "away_score": 2,
+      "predicted": "A",
+      "actual": "A",
+      "correct": true,
+      "probs": {
+        "H": 0.336,
+        "D": 0.276,
+        "A": 0.388
+      },
+      "running_accuracy": 0.6566
+    },
+    {
+      "match_id": 100,
+      "date": "2026-07-12",
+      "stage": "Quarter-finals",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "home_score": 3,
+      "away_score": 1,
+      "predicted": "H",
+      "actual": "H",
+      "correct": true,
+      "probs": {
+        "H": 0.636,
+        "D": 0.253,
+        "A": 0.111
+      },
+      "running_accuracy": 0.66
+    },
+    {
+      "match_id": 101,
+      "date": "2026-07-14",
+      "stage": "Semi-finals",
+      "home": "France",
+      "away": "Spain",
+      "home_score": 0,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "A",
+      "correct": false,
+      "probs": {
+        "H": 0.489,
+        "D": 0.27,
+        "A": 0.241
+      },
+      "running_accuracy": 0.6535
+    },
+    {
+      "match_id": 102,
+      "date": "2026-07-15",
+      "stage": "Semi-finals",
+      "home": "England",
+      "away": "Argentina",
+      "home_score": 1,
+      "away_score": 2,
+      "predicted": "H",
+      "actual": "A",
+      "correct": false,
+      "probs": {
+        "H": 0.421,
+        "D": 0.276,
+        "A": 0.303
+      },
+      "running_accuracy": 0.6471
     }
   ]
 }

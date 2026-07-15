@@ -130,8 +130,8 @@ function Explainability({ result }) {
 
 export default function Predict() {
   const teams = useFetch(api.teams)
-  const [home, setHome] = useState('Spain')
-  const [away, setAway] = useState('Belgium')
+  const [home, setHome] = useState('England')
+  const [away, setAway] = useState('Argentina')
   const [knockout, setKnockout] = useState(true)
   const [result, setResult] = useState(null)
   const [busy, setBusy] = useState(false)

@@ -56,7 +56,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "South Africa": {
     "name": "South Africa",
@@ -106,7 +110,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "South Korea": {
     "name": "South Korea",
@@ -147,7 +155,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Czechia": {
     "name": "Czechia",
@@ -188,7 +200,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Canada": {
     "name": "Canada",
@@ -247,7 +263,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Bosnia and Herzegovina": {
     "name": "Bosnia and Herzegovina",
@@ -297,7 +317,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Qatar": {
     "name": "Qatar",
@@ -338,7 +362,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Switzerland": {
     "name": "Switzerland",
@@ -393,17 +421,40 @@
         "gf": 0,
         "ga": 0,
         "result": "D"
+      },
+      {
+        "match_id": 100,
+        "date": "2026-07-12",
+        "stage": "Quarter-finals",
+        "opponent": "Argentina",
+        "gf": 1,
+        "ga": 3,
+        "result": "L"
       }
     ],
-    "alive": true,
+    "alive": false,
     "image": "/teams/SUI.jpeg",
-    "odds": {
+    "odds": null,
+    "archived_odds": {
       "team": "Switzerland",
       "reach_qf": 1.0,
       "reach_sf": 0.2267,
       "reach_final": 0.0813,
       "champion": 0.0228
-    }
+    },
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 100,
+      "opponent": "Argentina",
+      "goals_for": 1,
+      "goals_against": 3,
+      "won": false,
+      "result_text": "Lost 1–3 to Argentina"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Brazil": {
     "name": "Brazil",
@@ -462,7 +513,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Morocco": {
     "name": "Morocco",
@@ -530,7 +585,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Haiti": {
     "name": "Haiti",
@@ -571,7 +630,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Scotland": {
     "name": "Scotland",
@@ -612,7 +675,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "USA": {
     "name": "USA",
@@ -671,7 +738,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Paraguay": {
     "name": "Paraguay",
@@ -730,7 +801,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Australia": {
     "name": "Australia",
@@ -780,7 +855,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Türkiye": {
     "name": "Türkiye",
@@ -821,7 +900,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Germany": {
     "name": "Germany",
@@ -871,7 +954,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Curaçao": {
     "name": "Curaçao",
@@ -912,7 +999,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Côte d'Ivoire": {
     "name": "Côte d'Ivoire",
@@ -962,7 +1053,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Ecuador": {
     "name": "Ecuador",
@@ -1012,7 +1107,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Netherlands": {
     "name": "Netherlands",
@@ -1062,7 +1161,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Japan": {
     "name": "Japan",
@@ -1112,7 +1215,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Sweden": {
     "name": "Sweden",
@@ -1162,7 +1269,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Tunisia": {
     "name": "Tunisia",
@@ -1203,7 +1314,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Belgium": {
     "name": "Belgium",
@@ -1258,17 +1373,40 @@
         "gf": 4,
         "ga": 1,
         "result": "W"
+      },
+      {
+        "match_id": 98,
+        "date": "2026-07-10",
+        "stage": "Quarter-finals",
+        "opponent": "Spain",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
       }
     ],
-    "alive": true,
+    "alive": false,
     "image": "/teams/BEL.jpeg",
-    "odds": {
+    "odds": null,
+    "archived_odds": {
       "team": "Belgium",
       "reach_qf": 1.0,
       "reach_sf": 0.3378,
       "reach_final": 0.101,
       "champion": 0.0535
-    }
+    },
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 98,
+      "opponent": "Spain",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to Spain"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Egypt": {
     "name": "Egypt",
@@ -1327,7 +1465,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "IR Iran": {
     "name": "IR Iran",
@@ -1368,7 +1510,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "New Zealand": {
     "name": "New Zealand",
@@ -1409,7 +1555,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Spain": {
     "name": "Spain",
@@ -1464,6 +1614,24 @@
         "gf": 1,
         "ga": 0,
         "result": "W"
+      },
+      {
+        "match_id": 98,
+        "date": "2026-07-10",
+        "stage": "Quarter-finals",
+        "opponent": "Belgium",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 101,
+        "date": "2026-07-14",
+        "stage": "Semi-finals",
+        "opponent": "France",
+        "gf": 2,
+        "ga": 0,
+        "result": "W"
       }
     ],
     "alive": true,
@@ -1471,10 +1639,30 @@
     "odds": {
       "team": "Spain",
       "reach_qf": 1.0,
+      "reach_sf": 1.0,
+      "reach_final": 1.0,
+      "champion": 0.6104
+    },
+    "archived_odds": {
+      "team": "Spain",
+      "reach_qf": 1.0,
       "reach_sf": 0.6622,
       "reach_final": 0.26,
       "champion": 0.1643
-    }
+    },
+    "archived_result": {
+      "status": "Finalist",
+      "result_label": "FINALIST",
+      "stage": "Semi-finals",
+      "match_id": 101,
+      "opponent": "France",
+      "goals_for": 2,
+      "goals_against": 0,
+      "won": true,
+      "result_text": "Beat France 2–0"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Cabo Verde": {
     "name": "Cabo Verde",
@@ -1524,7 +1712,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Saudi Arabia": {
     "name": "Saudi Arabia",
@@ -1565,7 +1757,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Uruguay": {
     "name": "Uruguay",
@@ -1606,7 +1802,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "France": {
     "name": "France",
@@ -1670,17 +1870,40 @@
         "gf": 2,
         "ga": 0,
         "result": "W"
+      },
+      {
+        "match_id": 101,
+        "date": "2026-07-14",
+        "stage": "Semi-finals",
+        "opponent": "Spain",
+        "gf": 0,
+        "ga": 2,
+        "result": "L"
       }
     ],
-    "alive": true,
+    "alive": false,
     "image": "/teams/FRA.jpeg",
-    "odds": {
+    "odds": null,
+    "archived_odds": {
       "team": "France",
       "reach_qf": 1.0,
       "reach_sf": 1.0,
       "reach_final": 0.639,
       "champion": 0.4267
-    }
+    },
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "SEMI-FINAL EXIT",
+      "stage": "Semi-finals",
+      "match_id": 101,
+      "opponent": "Spain",
+      "goals_for": 0,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 0–2 to Spain"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Senegal": {
     "name": "Senegal",
@@ -1730,7 +1953,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Iraq": {
     "name": "Iraq",
@@ -1771,7 +1998,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Norway": {
     "name": "Norway",
@@ -1826,17 +2057,40 @@
         "gf": 2,
         "ga": 1,
         "result": "W"
+      },
+      {
+        "match_id": 99,
+        "date": "2026-07-11",
+        "stage": "Quarter-finals",
+        "opponent": "England",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
       }
     ],
-    "alive": true,
+    "alive": false,
     "image": "/teams/NOR.jpeg",
-    "odds": {
+    "odds": null,
+    "archived_odds": {
       "team": "Norway",
       "reach_qf": 1.0,
       "reach_sf": 0.4608,
       "reach_final": 0.2059,
       "champion": 0.0492
-    }
+    },
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "QUARTER-FINAL EXIT",
+      "stage": "Quarter-finals",
+      "match_id": 99,
+      "opponent": "England",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to England"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Argentina": {
     "name": "Argentina",
@@ -1891,6 +2145,24 @@
         "gf": 3,
         "ga": 2,
         "result": "W"
+      },
+      {
+        "match_id": 100,
+        "date": "2026-07-12",
+        "stage": "Quarter-finals",
+        "opponent": "Switzerland",
+        "gf": 3,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 102,
+        "date": "2026-07-15",
+        "stage": "Semi-finals",
+        "opponent": "England",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
       }
     ],
     "alive": true,
@@ -1898,10 +2170,30 @@
     "odds": {
       "team": "Argentina",
       "reach_qf": 1.0,
+      "reach_sf": 1.0,
+      "reach_final": 1.0,
+      "champion": 0.3896
+    },
+    "archived_odds": {
+      "team": "Argentina",
+      "reach_qf": 1.0,
       "reach_sf": 0.7733,
       "reach_final": 0.3906,
       "champion": 0.1636
-    }
+    },
+    "archived_result": {
+      "status": "Finalist",
+      "result_label": "FINALIST",
+      "stage": "Semi-finals",
+      "match_id": 102,
+      "opponent": "England",
+      "goals_for": 2,
+      "goals_against": 1,
+      "won": true,
+      "result_text": "Beat England 2–1"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Algeria": {
     "name": "Algeria",
@@ -1951,7 +2243,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Austria": {
     "name": "Austria",
@@ -2001,7 +2297,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Jordan": {
     "name": "Jordan",
@@ -2042,7 +2342,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Portugal": {
     "name": "Portugal",
@@ -2101,7 +2405,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Congo DR": {
     "name": "Congo DR",
@@ -2151,7 +2459,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Uzbekistan": {
     "name": "Uzbekistan",
@@ -2192,7 +2504,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Colombia": {
     "name": "Colombia",
@@ -2251,7 +2567,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "England": {
     "name": "England",
@@ -2306,17 +2626,49 @@
         "gf": 3,
         "ga": 2,
         "result": "W"
+      },
+      {
+        "match_id": 99,
+        "date": "2026-07-11",
+        "stage": "Quarter-finals",
+        "opponent": "Norway",
+        "gf": 2,
+        "ga": 1,
+        "result": "W"
+      },
+      {
+        "match_id": 102,
+        "date": "2026-07-15",
+        "stage": "Semi-finals",
+        "opponent": "Argentina",
+        "gf": 1,
+        "ga": 2,
+        "result": "L"
       }
     ],
-    "alive": true,
+    "alive": false,
     "image": "/teams/ENG.jpeg",
-    "odds": {
+    "odds": null,
+    "archived_odds": {
       "team": "England",
       "reach_qf": 1.0,
       "reach_sf": 0.5392,
       "reach_final": 0.3222,
       "champion": 0.1198
-    }
+    },
+    "archived_result": {
+      "status": "Eliminated",
+      "result_label": "SEMI-FINAL EXIT",
+      "stage": "Semi-finals",
+      "match_id": 102,
+      "opponent": "Argentina",
+      "goals_for": 1,
+      "goals_against": 2,
+      "won": false,
+      "result_text": "Lost 1–2 to Argentina"
+    },
+    "archived_forecast_as_of": "2026-07-10",
+    "archived_forecast_stage": "Quarter-finals"
   },
   "Croatia": {
     "name": "Croatia",
@@ -2366,7 +2718,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Ghana": {
     "name": "Ghana",
@@ -2416,7 +2772,11 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   },
   "Panama": {
     "name": "Panama",
@@ -2457,6 +2817,10 @@
     ],
     "alive": false,
     "image": null,
-    "odds": null
+    "odds": null,
+    "archived_odds": null,
+    "archived_result": null,
+    "archived_forecast_as_of": null,
+    "archived_forecast_stage": null
   }
 }

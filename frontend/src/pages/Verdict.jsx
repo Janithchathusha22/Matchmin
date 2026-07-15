@@ -82,8 +82,8 @@ const AMERICAS = [
 
 const LENSES = [
   { id: 'matchmind', label: 'MatchMind · 200k sims', blurb: 'Our calibrated ensemble + Poisson engine, 200,000 bracket simulations.' },
-  { id: 'opta', label: 'Opta supercomputer', blurb: 'Stats Perform’s public quarter-final-stage projections (10,000 sims).' },
-  { id: 'market', label: 'Betting market', blurb: 'US sportsbook outright odds converted to implied probability (includes margin).' },
+  { id: 'opta', label: 'Opta · archived QF', blurb: 'Stats Perform’s public quarter-final-stage projections (10,000 sims); context, not a live final forecast.' },
+  { id: 'market', label: 'Market · archived QF', blurb: 'US sportsbook quarter-final outright odds converted to implied probability (includes margin).' },
 ]
 
 const fmtOr = (v, fmt = (x) => pct(x, 1)) => (v == null ? '—' : fmt(v))
@@ -195,8 +195,8 @@ function ConsensusTable({ contenders, matchmind }) {
           <tr className="border-b border-white/10 text-left text-[10px] font-black uppercase tracking-[0.14em] text-slate-400">
             <th className="px-4 py-3">Team</th>
             <th className="tabular px-3 py-3 text-right">MatchMind</th>
-            <th className="tabular px-3 py-3 text-right">Opta</th>
-            <th className="tabular px-3 py-3 text-right">Market</th>
+            <th className="tabular px-3 py-3 text-right">Opta (QF)</th>
+            <th className="tabular px-3 py-3 text-right">Market (QF)</th>
             <th className="px-4 py-3">Key factor</th>
           </tr>
         </thead>
@@ -334,9 +334,7 @@ export default function Verdict() {
     const arg = sim.data.title_odds.find((t) => t.team === 'Argentina')
     const argRow = contenders.data.find((c) => c.team_name === 'Argentina')
     const steps = [
-      { label: 'Beat Switzerland in the QF', p: arg.reach_sf },
-      { label: 'Win the semi-final', p: arg.reach_final / arg.reach_sf },
-      { label: 'Win the final itself', p: arg.champion / arg.reach_final },
+      { label: 'Beat Spain in the final', p: arg.champion },
     ]
     return { matchmind, arg, argRow, steps }
   }, [sim.data, contenders.data])
@@ -372,9 +370,9 @@ export default function Verdict() {
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">
                 No nation has retained the World Cup since <b className="text-white">Brazil in 1962</b>.
-                Twenty champions have tried; eighteen fell. Argentina arrive as Elo leaders with a perfect
-                record — so we put the question to the mathematics: <b className="text-gold">10% says history,
-                {' '}{pct(arg.champion, 1)} says our model, {pct(EXTERNAL.market.Argentina, 1)} says the market.</b>
+                Twenty champions have tried; eighteen fell. Argentina now reach the final as Elo leaders with a
+                perfect record. The live model gives the holders <b className="text-gold">{pct(arg.champion, 1)}</b>
+                {' '}to beat Spain and retain the trophy.
               </p>
             </div>
             <div className="hidden justify-self-end pb-2 lg:block">
@@ -389,7 +387,7 @@ export default function Verdict() {
 
       {/* -------------------------------------------------- champion meter --- */}
       <section>
-        <SectionTitle kicker="Three independent lenses" title="Who wins the cup? Pick your oracle"
+        <SectionTitle kicker="One live forecast · two archived baselines" title="Who wins the cup?"
           right={<span className="text-xs text-slate-500">Verified {sim.data.as_of}</span>} />
         <div className="grid gap-6 lg:grid-cols-5">
           <FadeUp className="lg:col-span-3">
@@ -397,21 +395,20 @@ export default function Verdict() {
           </FadeUp>
           <FadeUp delay={0.06} className="lg:col-span-2">
             <div className="glass h-full p-6">
-              <h3 className="text-sm font-black uppercase tracking-[0.14em] text-slate-400">Why three lenses?</h3>
+              <h3 className="text-sm font-black uppercase tracking-[0.14em] text-slate-400">Read the timestamps first</h3>
               <p className="mt-3 text-sm leading-relaxed text-slate-300">
-                One number is an opinion; three independent estimates are evidence. Our engine knows the
-                bracket and the data. Opta’s supercomputer is the industry benchmark. The betting market
-                is thousands of people risking real money.
+                MatchMind is the only column recalculated after both semi-finals. Opta and market figures are
+                preserved quarter-final snapshots, useful for seeing how the race evolved but not as current final odds.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-slate-300">
-                All three agree on the shape of the race: <b className="text-white">France clear at the top</b> —
-                helped by already standing in the semi-final — with
-                <b className="text-white"> Spain, Argentina and England packed within a few points</b> of each other.
+                The final model call is clear: <b className="text-white">Spain {pct(matchmind.Spain, 1)}</b> and
+                {' '}<b className="text-white">Argentina {pct(arg.champion, 1)}</b>. Spain are the pick, but
+                Argentina at <b className="text-gold">{pct(arg.champion, 0)}</b> is a serious live branch, not a remote upset.
               </p>
               <p className="mt-3 rounded-lg border border-gold/20 bg-gold/5 p-3 text-sm leading-relaxed text-slate-300">
-                The market prices Argentina <b className="text-gold">above</b> both models
-                ({pct(EXTERNAL.market.Argentina, 1)} vs ~{pct(arg.champion, 1)}). That premium has a name:
-                belief in champions. The models can’t feel it — punters can.
+                Argentina’s live probability rose from <b className="text-gold">{pct(EXTERNAL.market.Argentina, 1)}</b>
+                {' '}in the archived market snapshot to <b className="text-gold">{pct(arg.champion, 1)}</b> in the
+                final-stage model because only one match now remains.
               </p>
             </div>
           </FadeUp>
@@ -420,7 +417,7 @@ export default function Verdict() {
           <div className="mt-6">
             <ConsensusTable contenders={contenders.data} matchmind={matchmind} />
             <p className="mt-2 text-[11px] text-slate-500">
-              Sources: MatchMind artifacts ({sim.data.as_of}) · Opta Analyst quarter-final projections ·
+              Sources: MatchMind artifacts ({sim.data.as_of}) · archived Opta Analyst quarter-final projections ·
               US sportsbook outright odds, 2026-07-09. External figures are third-party estimates quoted for comparison.
             </p>
           </div>
@@ -483,9 +480,9 @@ export default function Verdict() {
               <h3 className="text-sm font-black uppercase tracking-[0.14em] text-slate-400">Why champions fail — and why Argentina might not</h3>
               <ul className="mt-4 space-y-3 text-sm leading-relaxed text-slate-300">
                 <li><b className="text-red-300">✕ The usual killers:</b> ageing cores kept together one cycle too long (France ’02, Spain ’14, Germany ’18) and the group-stage ambush — 7 of 18 failed defences never left the groups.</li>
-                <li><b className="text-celeste">✓ Argentina dodged killer #1:</b> Scaloni rebuilt around the Qatar core — the snapshot shows a perfect 5/5 with a {argRow.goals_against_per_match} goals-against average and the field’s best defensive xG ({argRow.verified_xg_against_per_match}/game).</li>
-                <li><b className="text-celeste">✓ And killer #2 is gone:</b> the group stage is already survived. From the quarter-final on, it’s three coin-weighted knockouts — exactly where a #1 Elo rating ({argRow.elo_rating}) matters most.</li>
-                <li><b className="text-gold">⚠ What remains:</b> the path. Likely England in the semi, likely France in the final — the two other strongest sides in the field.</li>
+                <li><b className="text-celeste">✓ Argentina dodged killer #1:</b> Scaloni rebuilt around the Qatar core — the snapshot shows a perfect {argRow.wins}/{argRow.matches_played}, {argRow.goals_for_per_match} goals per game and verified defensive xG of {argRow.verified_xg_against_per_match}/game.</li>
+                <li><b className="text-celeste">✓ The path is down to one game:</b> Argentina survived England’s lead and won 2–1, so there is no remaining bracket uncertainty before the final.</li>
+                <li><b className="text-gold">⚠ What remains:</b> Spain — six wins, one shootout draw and the model’s {pct(matchmind.Spain, 1)} cup favourite.</li>
               </ul>
             </div>
           </div>
@@ -498,13 +495,13 @@ export default function Verdict() {
         <FadeUp>
           <div className="glass-sky p-6">
             <p className="max-w-3xl text-sm leading-relaxed text-slate-300">
-              A championship probability isn’t a feeling — it’s a product of conditional steps. Here is
-              Argentina’s full path, priced by the simulation ({sim.data.runs.toLocaleString()} runs):
+              A championship probability isn’t a feeling. With Argentina already in the final, the full title
+              path is now one conditional step, priced across {sim.data.runs.toLocaleString()} simulations:
             </p>
             <div className="mt-5"><MathChain steps={steps} result={arg.champion} /></div>
             <p className="mt-4 text-[11px] text-slate-500">
-              Read it like a bet slip: each step must happen for the next to matter. Multiply the three and
-              you get the championship figure exactly — nothing hidden, nothing hand-waved.
+              The model combines the 90-minute outcome with extra time and penalties. The resulting
+              {' '}<b className="text-celeste">{pct(arg.champion, 1)}</b> is Argentina’s complete championship probability.
             </p>
           </div>
         </FadeUp>
@@ -517,8 +514,8 @@ export default function Verdict() {
                 <PriorBars items={[
                   { label: 'History’s base rate', p: 0.10, sub: '2 repeats in 20 defences — knows nothing about this squad', tone: 'celeste' },
                   { label: 'MatchMind (200k sims)', p: arg.champion, sub: 'Elo, form, xG and the exact bracket path', tone: 'celeste' },
-                  { label: 'Opta supercomputer', p: EXTERNAL.opta.Argentina, sub: 'Independent industry model, QF stage', tone: 'celeste' },
-                  { label: 'Betting market', p: EXTERNAL.market.Argentina, sub: 'Real money · includes the “champion premium”', tone: 'gold' },
+                  { label: 'Opta supercomputer', p: EXTERNAL.opta.Argentina, sub: 'Archived independent model, QF stage', tone: 'celeste' },
+                  { label: 'Betting market', p: EXTERNAL.market.Argentina, sub: 'Archived QF market · includes bookmaker margin', tone: 'gold' },
                 ]} />
               </div>
             </div>
@@ -533,15 +530,15 @@ export default function Verdict() {
                 even reached this point.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-slate-300">
-                Every evidence-based lens lands in the same corridor — <b className="text-celeste">16–20%</b>,
-                roughly <b className="text-white">1.6–2× history’s base rate</b>. The data says this defence is
-                genuinely better placed than an average one.
+                The archived 17–20% figures were measured with three knockout rounds still unresolved. Reaching
+                the final removes two failure branches; the live estimate is now <b className="text-celeste">{pct(arg.champion, 1)}</b>.
+                That change is bracket logic, not a contradiction.
               </p>
               <p className="mt-3 rounded-lg border border-celeste/20 bg-celeste/5 p-3 text-sm leading-relaxed text-slate-300">
-                But note what the models <i>don’t</i> say: none makes Argentina favourite. France’s
-                {' '}<b className="text-white">{pct(matchmind.France, 1)}</b> is mostly bracket position — they’re
-                already in the semi-final ({pct(1, 0)} reach_sf vs Argentina’s {pct(arg.reach_sf, 1)}). One match
-                of head start is worth that much this deep in a tournament.
+                Both teams are now confirmed finalists, so bracket position is equal. Spain’s
+                {' '}<b className="text-white">{pct(matchmind.Spain, 1)}</b> edge comes from the current matchup
+                model: stronger recent defensive control and a {pct(matchmind.Spain, 1)} estimated chance to advance through all
+                final-resolution paths, including extra time and penalties.
               </p>
             </div>
           </FadeUp>
@@ -549,7 +546,7 @@ export default function Verdict() {
       </section>
 
       {/* ------------------------------------------------------ dark horses --- */}
-      <section>
+      {(norway || belgium) && <section>
         <SectionTitle kicker="Respect the outsiders" title="Dark horses the models can’t fully price" />
         <div className="grid gap-4 sm:grid-cols-2">
           {norway && (
@@ -561,7 +558,7 @@ export default function Verdict() {
               blurb="Golden Generation 2.0 — younger, hungrier, and still unbeaten this tournament. The 2.6 goals per game say the attack is real; the 1.0 conceded says the risk is too." /></FadeUp>
           )}
         </div>
-      </section>
+      </section>}
 
       {/* ---------------------------------------------------- final verdict --- */}
       <FadeUp>
@@ -577,14 +574,13 @@ export default function Verdict() {
             <div className="mt-6 grid max-w-4xl gap-4 text-sm leading-relaxed text-slate-300 sm:grid-cols-2">
               <p>
                 <b className="text-celeste">The case for:</b> Elo #1 at {argRow.elo_rating}, the only perfect record
-                left, the meanest defence in the field, the Americas rule at 87.5%, a winning mentality the market
+                left, {argRow.goals_for_per_match} goals per match, the Americas rule at 87.5%, a winning mentality the market
                 literally pays a premium for — and Messi’s last dance ending on this continent.
               </p>
               <p>
-                <b className="text-gold">The honest answer:</b> France are the rightful favourite in all three
-                lenses — but at {pct(arg.champion, 1)}–{pct(EXTERNAL.market.Argentina, 1)}, Argentina’s repeat is
-                roughly a dice roll: possible, priced, and twice as likely as history alone would grant. History
-                doesn’t repeat on schedule — but it rhymes, and it has rhymed in the Americas seven times out of eight.
+                <b className="text-gold">The honest answer:</b> Spain are the rightful favourite in the live
+                model at {pct(matchmind.Spain, 1)}. Argentina still hold {pct(arg.champion, 1)} — roughly two chances
+                in five — so the logical pick is Spain, not a certainty. One final decides whether history repeats.
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -597,7 +593,7 @@ export default function Verdict() {
       </FadeUp>
 
       <p className="text-center text-[11px] leading-relaxed text-slate-600">
-        Research file compiled {sim.data.as_of}. External benchmarks: Opta Analyst (theanalyst.com) QF-stage projections ·
+        Research file compiled {sim.data.as_of}. External benchmarks: archived Opta Analyst (theanalyst.com) QF-stage projections ·
         US sportsbook outright markets via ESPN/FOX Sports, 2026-07-09. Historical records: FIFA World Cup archives, 1930–2022.
         Probabilities are estimates, not promises — that’s the whole point of this page.
       </p>

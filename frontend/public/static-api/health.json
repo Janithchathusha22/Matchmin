@@ -2,6 +2,6 @@
   "status": "static-fallback",
   "version": "static",
   "model": "weighted_ensemble",
-  "data_fingerprint": "e6e0df0153e3991d",
+  "data_fingerprint": "533bb86358462995",
   "artifacts_fresh": true
 }

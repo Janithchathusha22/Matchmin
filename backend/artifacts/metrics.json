@@ -10,7 +10,7 @@
   "n_train_historical": 600,
   "n_model_selection_train": 480,
   "n_model_selection_validation": 120,
-  "n_live_wc2026": 97,
+  "n_live_wc2026": 102,
   "feature_baseline": {
     "elo_home": 1851.009513,
     "elo_away": 1853.290937,
@@ -23,8 +23,8 @@
     "goals_against5_away": 1.364806,
     "is_knockout": 0.0
   },
-  "data_fingerprint": "e6e0df0153e3991d",
-  "generated_at_utc": "2026-07-10T10:44:08.155312+00:00",
+  "data_fingerprint": "533bb86358462995",
+  "generated_at_utc": "2026-07-15T21:07:36.282848+00:00",
   "historical_data_limitations": "The legacy 600-match file has no dates or source lineage; file order is used until a verified dated archive replaces it.",
   "models": {
     "baseline_elo_logreg": {
@@ -35,10 +35,10 @@
         "f1_macro": 0.3927
       },
       "wc2026_live": {
-        "accuracy": 0.6495,
-        "log_loss": 0.9085,
-        "brier": 0.5355,
-        "f1_macro": 0.4926
+        "accuracy": 0.6471,
+        "log_loss": 0.9099,
+        "brier": 0.5363,
+        "f1_macro": 0.4866
       }
     },
     "random_forest": {
@@ -49,10 +49,10 @@
         "f1_macro": 0.369
       },
       "wc2026_live": {
-        "accuracy": 0.6186,
-        "log_loss": 0.9388,
-        "brier": 0.5529,
-        "f1_macro": 0.4706
+        "accuracy": 0.6176,
+        "log_loss": 0.9364,
+        "brier": 0.5512,
+        "f1_macro": 0.466
       }
     },
     "xgboost": {
@@ -63,10 +63,10 @@
         "f1_macro": 0.3443
       },
       "wc2026_live": {
-        "accuracy": 0.6082,
-        "log_loss": 0.9999,
-        "brier": 0.5964,
-        "f1_macro": 0.4557
+        "accuracy": 0.6176,
+        "log_loss": 0.9954,
+        "brier": 0.5933,
+        "f1_macro": 0.4605
       }
     },
     "neural_network": {
@@ -77,10 +77,10 @@
         "f1_macro": 0.3311
       },
       "wc2026_live": {
-        "accuracy": 0.6289,
-        "log_loss": 0.9218,
-        "brier": 0.5402,
-        "f1_macro": 0.4759
+        "accuracy": 0.6275,
+        "log_loss": 0.9157,
+        "brier": 0.5359,
+        "f1_macro": 0.471
       }
     },
     "weighted_ensemble": {
@@ -91,10 +91,10 @@
         "f1_macro": 0.3927
       },
       "wc2026_live": {
-        "accuracy": 0.6495,
-        "log_loss": 0.9085,
-        "brier": 0.5355,
-        "f1_macro": 0.4926
+        "accuracy": 0.6471,
+        "log_loss": 0.9099,
+        "brier": 0.5363,
+        "f1_macro": 0.4866
       }
     }
   }

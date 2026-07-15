@@ -1,61 +1,122 @@
 {
   "model": "weighted_ensemble",
   "runs": 200000,
-  "as_of": "2026-07-10",
-  "generated_at_utc": "2026-07-10T10:44:31.850463+00:00",
+  "as_of": "2026-07-16",
+  "generated_at_utc": "2026-07-15T21:10:27.173962+00:00",
   "artifacts_fresh": true,
   "title_odds": [
     {
-      "team": "France",
-      "reach_qf": 1.0,
-      "reach_sf": 1.0,
-      "reach_final": 0.639,
-      "champion": 0.4267
-    },
-    {
       "team": "Spain",
       "reach_qf": 1.0,
-      "reach_sf": 0.6622,
-      "reach_final": 0.26,
-      "champion": 0.1643
+      "reach_sf": 1.0,
+      "reach_final": 1.0,
+      "champion": 0.6104
     },
     {
       "team": "Argentina",
       "reach_qf": 1.0,
-      "reach_sf": 0.7733,
-      "reach_final": 0.3906,
-      "champion": 0.1636
-    },
-    {
-      "team": "England",
-      "reach_qf": 1.0,
-      "reach_sf": 0.5392,
-      "reach_final": 0.3222,
-      "champion": 0.1198
-    },
-    {
-      "team": "Belgium",
-      "reach_qf": 1.0,
-      "reach_sf": 0.3378,
-      "reach_final": 0.101,
-      "champion": 0.0535
-    },
-    {
-      "team": "Norway",
-      "reach_qf": 1.0,
-      "reach_sf": 0.4608,
-      "reach_final": 0.2059,
-      "champion": 0.0492
-    },
-    {
-      "team": "Switzerland",
-      "reach_qf": 1.0,
-      "reach_sf": 0.2267,
-      "reach_final": 0.0813,
-      "champion": 0.0228
+      "reach_sf": 1.0,
+      "reach_final": 1.0,
+      "champion": 0.3896
     }
   ],
   "upcoming": [
+    {
+      "match_id": 104,
+      "date": "2026-07-19",
+      "stage": "Final",
+      "home": "Spain",
+      "away": "Argentina",
+      "probs": {
+        "H": 0.475,
+        "D": 0.274,
+        "A": 0.251
+      },
+      "advance_prob_home": 0.6109,
+      "extra_time": {
+        "home": 0.2624,
+        "draw": 0.4868,
+        "away": 0.2508
+      },
+      "penalty_home": 0.4784,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1203
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0886
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0854
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0847
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0817
+        }
+      ],
+      "pick": "Spain"
+    },
+    {
+      "match_id": 103,
+      "date": "2026-07-18",
+      "stage": "Third-place match",
+      "home": "France",
+      "away": "England",
+      "probs": {
+        "H": 0.489,
+        "D": 0.274,
+        "A": 0.237
+      },
+      "advance_prob_home": 0.6298,
+      "extra_time": {
+        "home": 0.2546,
+        "draw": 0.4858,
+        "away": 0.2597
+      },
+      "penalty_home": 0.5359,
+      "top_scorelines": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1199
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0871
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0857
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0839
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0826
+        }
+      ],
+      "pick": "France"
+    }
+  ],
+  "prediction_history": [
     {
       "match_id": 98,
       "date": "2026-07-10",
@@ -68,40 +129,15 @@
         "A": 0.219
       },
       "advance_prob_home": 0.6617,
-      "extra_time": {
-        "home": 0.2642,
-        "draw": 0.4872,
-        "away": 0.2486
-      },
-      "penalty_home": 0.6,
-      "top_scorelines": [
-        {
-          "home_goals": 1,
-          "away_goals": 1,
-          "prob": 0.1204
-        },
-        {
-          "home_goals": 1,
-          "away_goals": 0,
-          "prob": 0.0894
-        },
-        {
-          "home_goals": 2,
-          "away_goals": 1,
-          "prob": 0.0852
-        },
-        {
-          "home_goals": 0,
-          "away_goals": 1,
-          "prob": 0.0851
-        },
-        {
-          "home_goals": 1,
-          "away_goals": 2,
-          "prob": 0.0811
-        }
-      ],
-      "pick": "Spain"
+      "pick": "Spain",
+      "predicted_as_of": "2026-07-10",
+      "predicted_at_utc": "2026-07-10T10:44:31.850463+00:00",
+      "actual_winner": "Spain",
+      "home_score": 2,
+      "away_score": 1,
+      "home_pens": null,
+      "away_pens": null,
+      "correct": true
     },
     {
       "match_id": 99,
@@ -115,40 +151,15 @@
         "A": 0.388
       },
       "advance_prob_home": 0.4594,
-      "extra_time": {
-        "home": 0.2509,
-        "draw": 0.4872,
-        "away": 0.2619
-      },
-      "penalty_home": 0.4,
-      "top_scorelines": [
-        {
-          "home_goals": 1,
-          "away_goals": 1,
-          "prob": 0.1204
-        },
-        {
-          "home_goals": 0,
-          "away_goals": 1,
-          "prob": 0.0888
-        },
-        {
-          "home_goals": 1,
-          "away_goals": 0,
-          "prob": 0.0857
-        },
-        {
-          "home_goals": 1,
-          "away_goals": 2,
-          "prob": 0.0846
-        },
-        {
-          "home_goals": 2,
-          "away_goals": 1,
-          "prob": 0.0817
-        }
-      ],
-      "pick": "England"
+      "pick": "England",
+      "predicted_as_of": "2026-07-10",
+      "predicted_at_utc": "2026-07-10T10:44:31.850463+00:00",
+      "actual_winner": "England",
+      "home_score": 1,
+      "away_score": 2,
+      "home_pens": null,
+      "away_pens": null,
+      "correct": true
     },
     {
       "match_id": 100,
@@ -162,12 +173,34 @@
         "A": 0.111
       },
       "advance_prob_home": 0.7749,
-      "extra_time": {
-        "home": 0.2555,
-        "draw": 0.4873,
-        "away": 0.2572
+      "pick": "Argentina",
+      "predicted_as_of": "2026-07-10",
+      "predicted_at_utc": "2026-07-10T10:44:31.850463+00:00",
+      "actual_winner": "Argentina",
+      "home_score": 3,
+      "away_score": 1,
+      "home_pens": null,
+      "away_pens": null,
+      "correct": true
+    },
+    {
+      "match_id": 102,
+      "date": "2026-07-15",
+      "stage": "Semi-finals",
+      "home": "England",
+      "away": "Argentina",
+      "probs": {
+        "H": 0.421,
+        "D": 0.276,
+        "A": 0.303
       },
-      "penalty_home": 0.6,
+      "advance_prob_home": 0.5507,
+      "extra_time": {
+        "home": 0.2603,
+        "draw": 0.4874,
+        "away": 0.2523
+      },
+      "penalty_home": 0.4285,
       "top_scorelines": [
         {
           "home_goals": 1,
@@ -175,27 +208,35 @@
           "prob": 0.1205
         },
         {
-          "home_goals": 0,
-          "away_goals": 1,
-          "prob": 0.0875
-        },
-        {
           "home_goals": 1,
           "away_goals": 0,
-          "prob": 0.087
+          "prob": 0.0884
         },
         {
-          "home_goals": 1,
-          "away_goals": 2,
-          "prob": 0.0834
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0862
         },
         {
           "home_goals": 2,
           "away_goals": 1,
-          "prob": 0.083
+          "prob": 0.0842
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0821
         }
       ],
-      "pick": "Argentina"
+      "pick": "England",
+      "predicted_as_of": "2026-07-15",
+      "predicted_at_utc": "2026-07-15T09:43:50.323582+00:00",
+      "actual_winner": "Argentina",
+      "home_score": 1,
+      "away_score": 2,
+      "home_pens": null,
+      "away_pens": null,
+      "correct": false
     }
   ]
 }
